@@ -776,10 +776,9 @@ function renderDay() {
 
   dayView.innerHTML = `
     <header class="day-heading">
-      <p>${day.date} · ${day.place}</p>
-      <h1>${day.title}</h1>
-      <span class="brush" aria-hidden="true"></span>
-    </header>
+  <h1>${day.title}</h1>
+  <span class="brush" aria-hidden="true"></span>
+</header>
     <div class="legend" aria-label="狀態說明">
       <span><i class="dot confirmed"></i>已確認</span>
       <span><i class="dot flex"></i>彈性安排</span>

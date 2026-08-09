@@ -767,7 +767,6 @@ function renderDay() {
             ${mapLink(stop.map, true)}
           </div>
           <p>${stop.summary}</p>
-          <span class="detail-cue">查看詳細說明 <b aria-hidden="true">↗</b></span>
         </div>
         ${stopIndex < day.stops.length - 1 ? '<span class="timeline-thread" aria-hidden="true"></span>' : ""}
       </article>

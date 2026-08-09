@@ -48,7 +48,7 @@ button {
 
 main {
   min-height: 100vh;
-  padding-bottom: 96px;
+  padding-bottom: 20px;
   overflow: clip;
 }
 
@@ -157,7 +157,7 @@ main {
 
 .day-heading h1 {
   margin: 0;
-  font-size: clamp(18px, 3vw, 22px);
+  font-size: clamp(17px, 3vw, 20px);
   font-weight: 600;
   letter-spacing: 0.06em;
   line-height: 1.4;
@@ -210,18 +210,18 @@ main {
 .stop {
   position: relative;
   display: block;
-  padding-bottom: 14px;
+  padding-bottom: 8px;
 }
 
 .time {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   padding: 0;
-  margin: 0;
+  margin-bottom: 3px;
   color: var(--maple-deep);
   font-family: Georgia, serif;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.08em;
 }
 
@@ -241,7 +241,7 @@ main {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  padding: 22px 22px 18px;
+  padding: 12px 16px 10px;
   border: 1px solid rgba(38, 53, 46, 0.1);
   border-radius: 4px;
   background: rgba(255, 252, 244, 0.83);
@@ -326,10 +326,10 @@ main {
 }
 
 .stop-card > p {
-  margin: 6px 0 10px;
+  margin: 4px 0 0;
   color: #656359;
   font-size: 12px;
-  line-height: 1.6;
+  line-height: 1.45;
 }
 
 .detail-cue {
@@ -574,18 +574,15 @@ main {
 
 .bottom-nav {
   position: static;
-  z-index: 35;
-  left: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: min(calc(100% - 28px), 420px);
   height: 68px;
+  margin: 40px auto 20px;
   padding: 7px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 6px;
   background: rgba(20, 48, 40, 0.96);
   box-shadow: 0 14px 36px rgba(22, 40, 33, 0.3);
-  backdrop-filter: blur(14px);
 }
 
 .bottom-nav button {
@@ -828,7 +825,7 @@ main {
   }
 
   .stop-card {
-  padding: 14px 16px 13px;
+  padding: 12px 14px 10px;
 }
 
   .title-row h2 {

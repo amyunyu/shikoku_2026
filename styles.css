@@ -341,28 +341,24 @@ main {
 
 .map-link {
   flex: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  min-height: 38px;
-  padding: 0 13px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
   border: 1px solid rgba(173, 75, 53, 0.35);
-  border-radius: 99px;
+  border-radius: 50% 50% 50% 0;
   color: var(--maple-deep);
   background: #fffaf0;
-  font-family: system-ui, sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  transform: rotate(-45deg);
   text-decoration: none;
+  box-shadow: 0 3px 8px rgba(59, 47, 30, 0.12);
 }
 
 .map-link span {
   font-family: Georgia, serif;
-  font-size: 18px;
-  line-height: 0;
-  transform: translateY(-1px);
+  font-size: 15px;
+  line-height: 1;
+  transform: rotate(45deg);
 }
 
 .map-link.compact {
@@ -807,22 +803,11 @@ main {
   }
 
   .stop {
-    grid-template-columns: 54px minmax(0, 1fr);
-    gap: 11px;
-  }
+  display: block;
+}
 
   .time {
     font-size: 10px;
-  }
-
-  .time::after {
-    left: 58px;
-    width: 9px;
-    height: 9px;
-  }
-
-  .timeline-thread {
-    left: 62px;
   }
 
   .stop-card {

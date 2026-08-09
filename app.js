@@ -754,11 +754,14 @@ function renderDay() {
     return `
   <article class="stop ${isFlex ? "is-flex" : ""}">
     <div class="stop-card" role="button" tabindex="0" data-stop-index="${stopIndex}" aria-label="查看 ${stop.title} 詳細說明">
-      <div class="time"><span>${stop.time}</span></div>
-          <div class="card-topline">
-            <span>${stop.eyebrow}</span>
-            <span class="status ${isFlex ? "flex" : "confirmed"}">${isFlex ? "彈性" : "已確認"}</span>
-          </div>
+      <div class="card-topline">
+  <div class="time">
+    <span>${stop.time}</span>
+    <span class="eyebrow">${stop.eyebrow}</span>
+  </div>
+
+  <span class="status ${isFlex ? "flex" : "confirmed"}">${isFlex ? "彈性" : "已確認"}</span>
+</div>
           <div class="title-row">
             <h2>${stop.title}</h2>
             ${mapLink(stop.map, true)}

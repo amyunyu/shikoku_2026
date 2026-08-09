@@ -218,7 +218,7 @@ main {
 .stop {
   position: relative;
   display: block;
-  padding-bottom: 24px;
+  padding-bottom: 14px;
 }
 
 .time {
@@ -317,17 +317,17 @@ main {
 
 .title-row h2 {
   margin: 0;
-  font-size: clamp(18px, 3vw, 23px);
+  font-size: clamp(16px, 3vw, 20px);
   font-weight: 600;
   letter-spacing: 0.04em;
   line-height: 1.4;
 }
 
 .stop-card > p {
-  margin: 9px 0 14px;
+  margin: 6px 0 10px;
   color: #656359;
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 .detail-cue {
@@ -811,8 +811,8 @@ main {
   }
 
   .stop-card {
-    padding: 16px 14px 14px;
-  }
+  padding: 14px 16px 13px;
+}
 
   .title-row h2 {
     font-size: 18px;

@@ -573,9 +573,8 @@ main {
 }
 
 .bottom-nav {
-  position: fixed;
+  position: static;
   z-index: 35;
-  bottom: 16px;
   left: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -587,7 +586,6 @@ main {
   background: rgba(20, 48, 40, 0.96);
   box-shadow: 0 14px 36px rgba(22, 40, 33, 0.3);
   backdrop-filter: blur(14px);
-  transform: translateX(-50%);
 }
 
 .bottom-nav button {

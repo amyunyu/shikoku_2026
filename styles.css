@@ -807,11 +807,7 @@ main {
   margin: 0 0 5px;
   font-size: 16px;
 }
-.detail-sheet section > h3 {
-  margin-top: 20px;
-  padding-top: 18px;
-  border-top: 1px solid var(--maple);
-}
+
 .restaurant-item p {
   margin: 0 0 8px;
   color: #777267;
@@ -822,7 +818,11 @@ main {
   color: var(--maple-deep);
   font-size: 12px;
 }
-
+.detail-extra {
+  margin-bottom: 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--maple);
+}
 @media (max-width: 620px) {
   .date-rail {
     padding-right: 10px;

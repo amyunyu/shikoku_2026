@@ -346,18 +346,7 @@ status:"confirmed"
         status: "confirmed"
 },
       {
-        time: "11:30",
-        title: "大步危・午餐",
-        eyebrow: "午餐候選",
-        summary: "在峽谷區先吃午餐，再決定遊船或展望停留。",
-        detail: "午餐以當日營業與抵達時間決定。候選包含 Cafe & Jibie、Mori no Kumasan，以及おのみ家。",
-        highlights: ["Cafe & Jibie 位於道之驛大步危", "森のくまさん適合山間用餐", "保留候補避免臨時休業"],
-        map: "https://maps.app.goo.gl/Gnf69LQdjonGTZRF7",
-        tags: ["午餐", "峽谷"],
-        status: "flex"
-      },
-      {
-        time: "19:00",
+        time: "17:00",
         title: "抵達 OMO7 高知",
         eyebrow: "住宿",
         summary: "離開祖谷後直達高知，連住兩晚、不再搬行李。",

@@ -827,10 +827,11 @@ function openStop(stopIndex, triggerElement) {
   document.querySelector("#detail-tags").innerHTML = stop.tags.map(tag => `<span>${tag}</span>`).join("");
   document.querySelector("#detail-highlights").innerHTML = stop.highlights.map(item => `<li>${item}</li>`).join("");
   const restaurantBlock = document.querySelector("#detail-restaurants");
+const restaurantList = document.querySelector("#restaurant-list");
 
 if (stop.restaurants) {
   restaurantBlock.hidden = false;
-  restaurantBlock.innerHTML = stop.restaurants.map(item => `
+  restaurantList.innerHTML = stop.restaurants.map(item => `
     <article class="restaurant-item">
       <h4>${item.name}</h4>
       <p>${item.note || ""}</p>

@@ -48,7 +48,7 @@ const days = [
             name: "平岡精肉店",
             note: "金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
             map: "https://maps.app.goo.gl/hMiHsLodfqbWmugH8"
-          }
+          },
           {
             name: "Kotohira Stationery Store 琴平文具店",
             note: "金毘羅街道上，獨家的香川縣紙膠帶。",
@@ -129,11 +129,14 @@ const days = [
     map: "https://maps.app.goo.gl/JWWMWAWdgtRVu2gy8"
   },
     {
-      name: "五人百姓",
-      type: "參道小店",
-      note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
-      map: "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9","https://maps.app.goo.gl/81kYKbxtLyr6WNoF6"
-    }
+  name: "五人百姓",
+  type: "參道小店",
+  note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
+  maps: [
+    "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9",
+    "https://maps.app.goo.gl/81kYKbxtLyr6WNoF6"
+  ]
+}
   ],
   map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
   tags: ["神社", "參拜", "攝影"],
@@ -922,7 +925,13 @@ if (stop.nearby) {
       <h4>${item.name}</h4>
       <p>${item.type || ""}</p>
       <p>${item.note || ""}</p>
-      <a href="${item.map}" target="_blank">Google Map</a>
+      ${
+  item.maps
+    ? item.maps.map((url, index) =>
+        `<a href="${url}" target="_blank">Google Map ${index + 1}</a>`
+      ).join(" ")
+    : `<a href="${item.map}" target="_blank">Google Map</a>`
+}
     </article>
   `).join("");
 } else {

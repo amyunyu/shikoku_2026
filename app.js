@@ -931,9 +931,7 @@ function renderDay() {
   <div class="time">
   <span>${stop.time}</span>
   ${stop.eyebrow ? `<span class="eyebrow">${stop.eyebrow}</span>` : ""}
-</div>
-
-  <span class="status ${isFlex ? "flex" : "confirmed"}">${isFlex ? "彈性" : "已確認"}</span>
+  </div>
 </div>
           <div class="title-row">
             <h2>${stop.title}</h2>
@@ -951,10 +949,6 @@ function renderDay() {
   <h1>${day.title}</h1>
   <span class="brush" aria-hidden="true"></span>
 </header>
-    <div class="legend" aria-label="狀態說明">
-      <span><i class="dot confirmed"></i>已確認</span>
-      <span><i class="dot flex"></i>彈性安排</span>
-    </div>
     <div class="timeline">${timeline}</div>
     <section class="lodging-card">
       <div>

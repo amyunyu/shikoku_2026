@@ -71,7 +71,7 @@ const days = [
         map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
         tags: ["住宿", "夜散步", "晚餐"],
         status: "confirmed"
-      }
+      },
       {
         time: "傍晚",
         title: "入住・琴平夜散步",

@@ -798,6 +798,27 @@ main {
   cursor: pointer;
 }
 
+.restaurant-item {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.restaurant-item h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.restaurant-item p {
+  margin: 0 0 8px;
+  color: #777267;
+  font-size: 12px;
+}
+
+.restaurant-item a {
+  color: var(--maple-deep);
+  font-size: 12px;
+}
+
 @media (max-width: 620px) {
   .date-rail {
     padding-right: 10px;

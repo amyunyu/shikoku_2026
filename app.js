@@ -49,12 +49,17 @@ const days = [
             note: "金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
             map: "https://maps.app.goo.gl/hMiHsLodfqbWmugH8"
           }
+          {
+            name: "Kotohira Stationery Store 琴平文具店",
+            note: "金毘羅街道上，獨家的香川縣紙膠帶。",
+            map: "https://maps.app.goo.gl/sFA9mAjk1uUc4PF26"
+          }
         ],
         summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
         detail: "表參道是琴平最適合用來展開旅程的地方。下午斜光會在石階、屋簷和老店招牌之間形成漂亮層次；依抵達時間決定走到大門或御本宮。",
-        highlights: ["表參道散步約 45–60 分鐘", "輕鬆版走至大門附近", "若抵達早且精神好，再考慮御本宮"],
+        highlights: ["JR琴平駅可以拍照","表參道散步約 45–60 分鐘"],
         map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
-        tags: ["老街", "神社", "攝影"],
+        tags: ["逛街", "攝影"],
         status: "flex"
       },
       {
@@ -68,24 +73,13 @@ const days = [
           },
           {
             name: "Tanakaya 焼鳥・骨付鳥 田中屋",
-            map: "你的 Google Map 連結",
-            note: "琴平代表性骨付鳥選項"
+            map: "https://maps.app.goo.gl/powo67dESZgjhcLY8",
+            note: "香川代表性骨付鳥選項，不一定選這家"
           }
         ],
         summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
         detail: "飯店位於琴平街區，適合入住後步行活動。夜間的表參道比白天安靜，暖色燈光與木造建築很適合拍攝。",
-        highlights: ["住宿：UDON na HOTEL 琴平", "晚餐首選田中屋骨付鳥", "備選：お食事処 ひとし、紅鶴"],
-        map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
-        tags: ["住宿", "夜散步", "晚餐"],
-        status: "confirmed"
-      },
-      {
-        time: "傍晚",
-        title: "入住・琴平夜散步",
-        eyebrow: "住宿",
-        summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
-        detail: "飯店位於琴平街區，適合入住後步行活動。夜間的表參道比白天安靜，暖色燈光與木造建築很適合拍攝。",
-        highlights: ["住宿：UDON na HOTEL 琴平", "晚餐首選田中屋骨付鳥", "備選：お食事処 ひとし、紅鶴"],
+        highlights: ["住宿：UDON na HOTEL 琴平"],
         map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
         tags: ["住宿", "夜散步", "晚餐"],
         status: "confirmed"
@@ -98,32 +92,89 @@ const days = [
     place: "脇町",
     title: "白壁商街，秋光緩行",
     lodging: "PAYSAGE MORIGUCHI",
-    lodgingMap: mapSearch("PAYSAGE MORIGUCHI 脇町"),
+    lodgingMap: "https://maps.app.goo.gl/HggrojLCHYgYS3dB6",
     stops: [
       {
-        time: "08:00",
-        title: "琴平清晨・飯店早餐",
-        eyebrow: "晨間",
-        summary: "吃完早餐再看一次遊客尚少的琴平街景。",
-        detail: "若前一天抵達較晚，清晨可以補走表參道入口；若已走得充足，就把時間留給悠閒早餐與退房。",
-        highlights: ["飯店早餐已包含", "清晨石階與店舖光線柔和", "不必為了登頂壓縮脇町時間"],
-        map: mapSearch("金刀比羅宮"),
-        tags: ["早餐", "晨景"],
-        status: "confirmed"
+  time: "08:00",
+  title: "琴平清晨・飯店早餐",
+  eyebrow: "晨間",
+  summary: "早餐後整理行李，準備完成金刀比羅宮完整參拜。",
+  detail: "利用清晨較少人潮的時段，從琴平街區前往金刀比羅宮。今天不只是散步，而是安排完整登拜路線。",
+  highlights: [
+    "飯店早餐已包含",
+    "建議穿著好走鞋",
+    "退房前整理行李"
+  ],
+  map: "https://maps.app.goo.gl/zo5SpDCFfZod2QgP7",
+  tags: ["早餐", "準備"],
+  status: "confirmed"
+},
+      {
+  time: "09:00",
+  title: "金刀比羅宮・完整參拜",
+  eyebrow: "清晨登拜",
+  summary: "從表參道開始，走過御本宮，再前往奧社，完成琴平最完整的參拜路線。",
+  detail: "金刀比羅宮正式參拜路線從表參道開始。今天安排完整登拜，不追求速度，慢慢走過石階、門前町、御本宮與更深處的奧社。清晨光線柔和，也是拍攝石階、杉木與建築細節的最佳時段。",
+  highlights: [
+    "表參道 → 大門 → 御本宮 → 奧社",
+    "完整往返約 2.5–3 小時",
+    "石階較多，建議穿好走鞋",
+    "途中補水與休息，不以趕路為目標"
+  ],
+  nearby: [
+    {
+    name: "Nazuna-dō 七十七堂",
+    type: "參拜途中",
+    note: "位於參道77段附近，適合作為登拜前後的短暫休息點。",
+    map: "https://maps.app.goo.gl/JWWMWAWdgtRVu2gy8"
+  },
+    {
+      name: "五人百姓",
+      type: "參道小店",
+      note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
+      map: "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9","https://maps.app.goo.gl/81kYKbxtLyr6WNoF6"
+    }
+  ],
+  map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
+  tags: ["神社", "參拜", "攝影"],
+  status: "confirmed"
       },
       {
-        time: "10:30",
-        title: "善通寺",
-        eyebrow: "途中選配",
-        summary: "在空海故里看五重塔與寺院庭景，再向德島前進。",
-        detail: "善通寺距離琴平不遠，適合作為路上的文化停點。若早上在琴平停留較久，可以直接略過，不影響當日主線。",
-        highlights: ["建議停留 45–60 分鐘", "五重塔、御影堂與銀杏", "屬於彈性景點"],
-        map: mapSearch("總本山善通寺"),
-        tags: ["寺院", "文化"],
-        status: "flex"
+  time: "12:30",
+  title: "琴平出發・午餐休息",
+  eyebrow: "移動途中",
+  summary: "完成金刀比羅宮參拜後，依時間選擇琴平用餐或沿途道之駅休息。",
+  detail: "今天不固定單一餐廳，保留參拜時間彈性。若下山較早，可在琴平街區用餐；若希望早點前往脇町，則選擇沿途道之駅簡單休息。",
+  highlights: [
+    "琴平市街午餐候選",
+    "道之駅補給與休息",
+    "下午以脇町散步為主"
+  ],
+  nearby: [
+    {
+      name: "道の駅 空の夢もみの木パーク",
+      type: "途中休息",
+      note: "適合作為琴平往脇町方向的補給停留。",
+      map: "https://maps.app.goo.gl/ST7ezFZWen4H6N8d7"
+    },
+    {
+      name: "道の駅 たからだの里さいた",
+      type: "途中休息",
+      note: "可補給地方物產、飲料與簡單餐食。",
+      map: "https://maps.app.goo.gl/5m8TxkPnPRY89xJZ7"
+    },
+    {
+      name: "吉野川サービスエリア（下り）",
+      type: "簡單休息",
+      note: "若選擇較快速移動，可作為途中停靠點。",
+      map: "https://maps.app.goo.gl/qRDrMrm4coGAM9oj7"
+    }
+  ],
+  tags: ["午餐", "移動", "道の駅"],
+  status: "flex"
       },
       {
-        time: "14:00",
+        time: "14:30",
         title: "脇町・うだつの町並み",
         eyebrow: "今日主景",
         summary: "走進江戶至明治的白壁商家街，把午後留給屋簷與斜陽。",

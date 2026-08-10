@@ -734,13 +734,13 @@ main {
 .sheet-rule {
   width: 100%;
   height: 1px;
-  margin: 25px 0;
+  margin: 18px 0;
   background: linear-gradient(90deg, var(--maple), rgba(173, 75, 53, 0));
 }
 
 .detail-sheet > h3 {
-  margin: 0 0 14px;
-  font-size: 17px;
+  margin: 0 0 10px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -752,10 +752,10 @@ main {
 
 .detail-sheet li {
   position: relative;
-  margin: 11px 0;
-  padding-left: 20px;
-  font-size: 13px;
-  line-height: 1.7;
+  margin: 6px 0;
+  padding-left: 18px;
+  font-size: 12px;
+  line-height: 1.45;
 }
 
 .detail-sheet li::before {

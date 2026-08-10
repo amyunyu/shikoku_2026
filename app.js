@@ -832,7 +832,8 @@ function openStop(stopIndex, triggerElement) {
   const stop = days[activeDayIndex].stops[stopIndex];
   lastFocusedElement = triggerElement;
 
-  document.querySelector("#detail-eyebrow").textContent = `${stop.time} · ${stop.eyebrow}`;
+  document.querySelector("#detail-eyebrow").textContent =
+stop.eyebrow ? `${stop.time} · ${stop.eyebrow}` : stop.time;
   document.querySelector("#detail-title").textContent = stop.title;
   document.querySelector("#detail-text").textContent = stop.detail;
   document.querySelector("#detail-map").href = stop.map;

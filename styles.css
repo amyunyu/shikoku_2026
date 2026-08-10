@@ -157,7 +157,7 @@ main {
 
 .day-heading h1 {
   margin: 0;
-  font-size: clamp(17px, 3vw, 20px);
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.06em;
   line-height: 1.4;
@@ -319,7 +319,7 @@ main {
 
 .title-row h2 {
   margin: 0;
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.04em;
   line-height: 1.4;
@@ -807,10 +807,6 @@ main {
 
   .day-view {
     padding: 40px 14px 18px;
-  }
-
-  .day-heading h1 {
-    font-size: 29px;
   }
 
   .legend {

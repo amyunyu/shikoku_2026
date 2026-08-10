@@ -216,19 +216,21 @@ main {
 .time {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 0;
-  margin-bottom: 3px;
+  margin: 0;
   color: var(--maple-deep);
-  font-family: Georgia, serif;
+  font-family: "Yu Mincho", serif;
   font-size: 14px;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
 .time .eyebrow {
   color: var(--moss);
   font-family: "Yu Mincho", serif;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 

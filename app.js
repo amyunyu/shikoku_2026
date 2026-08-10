@@ -53,6 +53,18 @@ const days = [
       {
         time: "晚餐",
         title: "琴平晚餐",
+        restaurants: [
+          {
+            name: "Musashi 手打うどん むさし",
+            map: "https://maps.app.goo.gl/9fUeT7x5AmDs9t5d6",
+            note: "Tablog 百名店 2024"
+          },
+          {
+            name: "Tanakaya 焼鳥・骨付鳥 田中屋",
+            map: "你的 Google Map 連結",
+            note: "琴平代表性骨付鳥選項"
+          }
+        ],
         summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
         detail: "飯店位於琴平街區，適合入住後步行活動。夜間的表參道比白天安靜，暖色燈光與木造建築很適合拍攝。",
         highlights: ["住宿：UDON na HOTEL 琴平", "晚餐首選田中屋骨付鳥", "備選：お食事処 ひとし、紅鶴"],

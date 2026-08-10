@@ -33,6 +33,14 @@ const days = [
       },
       {
         time: "15:00",
+        title: "UDON na HOTEL 琴平",
+        eyebrow: "check in",
+        summary: "Booking，含早餐",
+        map: https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7,
+        status: "confirmed"
+      },
+      {
+        time: "15:30",
         title: "金刀比羅宮表參道",
         eyebrow: "午後散步",
         summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
@@ -42,6 +50,16 @@ const days = [
         tags: ["老街", "神社", "攝影"],
         status: "flex"
       },
+      {
+        time: "晚餐",
+        title: "琴平晚餐",
+        summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
+        detail: "飯店位於琴平街區，適合入住後步行活動。夜間的表參道比白天安靜，暖色燈光與木造建築很適合拍攝。",
+        highlights: ["住宿：UDON na HOTEL 琴平", "晚餐首選田中屋骨付鳥", "備選：お食事処 ひとし、紅鶴"],
+        map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
+        tags: ["住宿", "夜散步", "晚餐"],
+        status: "confirmed"
+      }
       {
         time: "傍晚",
         title: "入住・琴平夜散步",
@@ -808,6 +826,20 @@ function openStop(stopIndex, triggerElement) {
   document.querySelector("#detail-map").href = stop.map;
   document.querySelector("#detail-tags").innerHTML = stop.tags.map(tag => `<span>${tag}</span>`).join("");
   document.querySelector("#detail-highlights").innerHTML = stop.highlights.map(item => `<li>${item}</li>`).join("");
+  const restaurantBlock = document.querySelector("#detail-restaurants");
+
+if (stop.restaurants) {
+  restaurantBlock.hidden = false;
+  restaurantBlock.innerHTML = stop.restaurants.map(item => `
+    <article class="restaurant-item">
+      <h4>${item.name}</h4>
+      <p>${item.note || ""}</p>
+      <a href="${item.map}" target="_blank">Google Map</a>
+    </article>
+  `).join("");
+} else {
+  restaurantBlock.hidden = true;
+}
 
   const note = document.querySelector("#detail-note");
   note.hidden = !stop.note;

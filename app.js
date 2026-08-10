@@ -254,7 +254,69 @@ const days = [
         status: "confirmed"
       },
       {
-  time: "10:00",
+time: "10:00",
+title: "奧祖谷二重蔓橋",
+eyebrow: "秘境山村",
+summary: "深入祖谷最深處，在原始山林中尋找兩座古老藤蔓橋。",
+detail: "奧祖谷二重蔓橋位於祖谷山地深處，由男橋與女橋兩座藤蔓橋組成。相較於西祖谷的祖谷蔓橋，這裡位置更偏遠、人潮更少，也更能感受到四國山村與自然共存的氣息。",
+nearby: [
+          {
+            name: "奥祖谷二重かずら橋入口（料金所）",
+            note: "旁邊就可以停車。",
+            map: "https://maps.app.goo.gl/4JHooWBnd9oyYbVD6"
+          }
+        ],        
+highlights: [
+"門票每人550",
+  "男橋、女橋兩座藤蔓橋",
+"十一月底注意落葉與濕滑路面",
+"建議停留約45–60分鐘"
+],
+map: "https://maps.app.goo.gl/maL2GnRqe9SApHwS7",
+tags:["秘境","山村","攝影"],
+status:"confirmed"
+      },
+      {
+        time: "12:00",
+        title: "祖谷蔓橋。午餐",
+        eyebrow: "祖谷",
+        summary: "走過藤蔓橋與溪谷。",
+        detail: "被列為日本三奇橋之一的祖谷葛藤橋，其起源有多種傳說，一說是這座橋是平家落人為了在後有追兵時能迅速切斷葛藤而特意建造的防禦設施；另一說則是巡行四國的弘法大師，為了幫助難以渡河的村民而親手建造的。\n\n被陡峭的四國山地環抱的祖谷地區，相傳是由在「屋島之戰」中戰敗的平國盛以及安德天皇一行人逃亡至此，為了祈求平家復興再起而定居下來的隱居村落，由於直到近代以前，這裡幾乎是與世隔絕的狀態，因此自中世以來的生活方式與獨特的風土民情得以幾乎完整的保留下來。",
+        nearby: [
+    {
+      name: "藤蔓橋夢舞台 駐車場",
+      map: "https://maps.app.goo.gl/jms7Z3rzrN4giAVi8"
+    },
+          {
+      name: "琵琶瀑布",
+      note: "從祖谷蔓橋步行50公尺即可達、有50公尺高的瀑布。\n\n傳說從前在源平大戰中戰敗的平氏家族殘兵逃到此地，懷想起京都，在這個瀑布旁彈奏琵琶以聊慰寂寥之心，琵琶瀑布因此得名。\n\n*再往前走50公尺左右有遊山步道，可以沿著石階往下走到河邊。",
+      map: "https://maps.app.goo.gl/gVrveo7V5gNrWgwn7"
+    }
+        ],
+        restaurants: [
+          {
+            name: "森のくまさん",
+            map: "https://maps.app.goo.gl/DjSHSeeNg1nvQw5e9",
+            note: "在祖谷蔓橋駐車場附近，咖啡輕食"
+          },
+          {
+            name: "おのみ家（おのみや）",
+            map: "https://maps.app.goo.gl/PmGhBWEzyEn45oPe9",
+            note: "定食，前往大步危途中"
+          },
+          {
+            name: "Cafe & Jibie",
+            map: "https://maps.app.goo.gl/ggzqrks6WKzovaKUA",
+            note: "在道の駅 大歩危"
+          }
+        ],
+        highlights: ["門票每人550", "停留約 45–60 分鐘"],
+        map: "https://maps.app.goo.gl/yX5eu6ZMHA4EN6yB6",
+        tags: ["溪谷", "文化", "攝影"],
+        status: "confirmed"
+      },
+      {
+  time: "14:30",
   title: "大步危峽谷觀光遊覽船",
   eyebrow: "溪谷主景",
   summary: "搭乘30分鐘遊船，從吉野川水面近距離欣賞大步危峽谷的岩壁與清流。",
@@ -289,54 +351,10 @@ const days = [
         eyebrow: "午餐候選",
         summary: "在峽谷區先吃午餐，再決定遊船或展望停留。",
         detail: "午餐以當日營業與抵達時間決定。候選包含 Cafe & Jibie、Mori no Kumasan，以及おのみ家。",
-        restaurants: [
-          {
-            name: "Cafe & Jibie",
-            map: "https://maps.app.goo.gl/ggzqrks6WKzovaKUA",
-            note: "在道の駅 大歩危裡"
-          },
-          {
-            name: "おのみ家（おのみや）",
-            map: "https://maps.app.goo.gl/PmGhBWEzyEn45oPe9",
-            note: "定食，前往祖谷途中"
-          },
-          {
-            name: "森のくまさん",
-            map: "https://maps.app.goo.gl/DjSHSeeNg1nvQw5e9",
-            note: "在祖谷蔓橋駐車場附近，咖啡輕食"
-          }
-        ],
         highlights: ["Cafe & Jibie 位於道之驛大步危", "森のくまさん適合山間用餐", "保留候補避免臨時休業"],
         map: "https://maps.app.goo.gl/Gnf69LQdjonGTZRF7",
         tags: ["午餐", "峽谷"],
         status: "flex"
-      },
-      {
-        time: "13:30",
-        title: "祖谷蔓橋",
-        eyebrow: "祖谷",
-        summary: "走過藤蔓橋與溪谷，把祖谷最具代表性的景觀留在午後。",
-        detail: "被列為日本三奇橋之一的祖谷葛藤橋，其起源有多種傳說，一說是這座橋是平家落人為了在後有追兵時能迅速切斷葛藤而特意建造的防禦設施；另一說則是巡行四國的弘法大師，為了幫助難以渡河的村民而親手建造的。\n\n被陡峭的四國山地環抱的祖谷地區，相傳是由在「屋島之戰」中戰敗的平國盛以及安德天皇一行人逃亡至此，為了祈求平家復興再起而定居下來的隱居村落，由於直到近代以前，這裡幾乎是與世隔絕的狀態，因此自中世以來的生活方式與獨特的風土民情得以幾乎完整的保留下來。",
-        nearby: [
-    {
-      name: "藤蔓橋夢舞台 駐車場",
-      map: "https://maps.app.goo.gl/jms7Z3rzrN4giAVi8"
-    },
-          {
-      name: "琵琶瀑布",
-      note: "從祖谷蔓橋步行50公尺即可達、有50公尺高的瀑布。\n\n傳說從前在源平大戰中戰敗的平氏家族殘兵逃到此地，懷想起京都，在這個瀑布旁彈奏琵琶以聊慰寂寥之心，琵琶瀑布因此得名。\n\n*再往前走50公尺左右有遊山步道，可以沿著石階往下走到河邊。",
-      map: "https://maps.app.goo.gl/gVrveo7V5gNrWgwn7"
-    },
-    {
-      name: "奧祖谷二重蔓橋",
-      note: "要在往東開車50分鐘，人比較少。",
-      map: "https://maps.app.goo.gl/pFrFYZs5RjbQBVvg9"
-    }
-  ],
-        highlights: ["門票每人550", "停留約 45–60 分鐘"],
-        map: "https://maps.app.goo.gl/yX5eu6ZMHA4EN6yB6",
-        tags: ["溪谷", "文化", "攝影"],
-        status: "confirmed"
       },
       {
         time: "19:00",

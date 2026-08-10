@@ -43,10 +43,17 @@ const days = [
         time: "15:30",
         title: "金刀比羅宮表參道",
         eyebrow: "午後散步",
+        nearby: [
+          {
+            name: "平岡精肉店",
+            note: "金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
+            map: "https://maps.app.goo.gl/hMiHsLodfqbWmugH8"
+          }
+        ],
         summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
         detail: "表參道是琴平最適合用來展開旅程的地方。下午斜光會在石階、屋簷和老店招牌之間形成漂亮層次；依抵達時間決定走到大門或御本宮。",
         highlights: ["表參道散步約 45–60 分鐘", "輕鬆版走至大門附近", "若抵達早且精神好，再考慮御本宮"],
-        map: mapSearch("金刀比羅宮表參道"),
+        map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
         tags: ["老街", "神社", "攝影"],
         status: "flex"
       },
@@ -854,7 +861,23 @@ if (stop.restaurants) {
 } else {
   restaurantBlock.hidden = true;
 }
+const nearbyBlock = document.querySelector("#detail-nearby");
+const nearbyList = document.querySelector("#nearby-list");
 
+if (stop.nearby) {
+  nearbyBlock.hidden = false;
+  nearbyList.innerHTML = stop.nearby.map(item => `
+    <article class="restaurant-item">
+      <h4>${item.name}</h4>
+      <p>${item.type || ""}</p>
+      <p>${item.note || ""}</p>
+      <a href="${item.map}" target="_blank">Google Map</a>
+    </article>
+  `).join("");
+} else {
+  nearbyBlock.hidden = true;
+  nearbyList.innerHTML = "";
+}
   const note = document.querySelector("#detail-note");
   note.hidden = !stop.note;
   note.querySelector("p").textContent = stop.note || "";

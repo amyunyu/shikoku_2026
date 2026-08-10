@@ -34,7 +34,7 @@ const days = [
       {
         time: "15:00",
         title: "UDON na HOTEL 琴平",
-        eyebrow: "check in",
+        eyebrow: "入住",
         summary: "Booking，含早餐",
         map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
         status: "confirmed"
@@ -793,9 +793,9 @@ function renderDay() {
     <div class="stop-card" role="button" tabindex="0" data-stop-index="${stopIndex}" aria-label="查看 ${stop.title} 詳細說明">
       <div class="card-topline">
   <div class="time">
-    <span>${stop.time}</span>
-    <span class="eyebrow">${stop.eyebrow}</span>
-  </div>
+  <span>${stop.time}</span>
+  ${stop.eyebrow ? `<span class="eyebrow">${stop.eyebrow}</span>` : ""}
+</div>
 
   <span class="status ${isFlex ? "flex" : "confirmed"}">${isFlex ? "彈性" : "已確認"}</span>
 </div>

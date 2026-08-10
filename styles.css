@@ -728,6 +728,7 @@ main {
   color: #55574f;
   font-size: 14px;
   line-height: 2;
+  white-space: pre-line;
 }
 
 .sheet-rule {

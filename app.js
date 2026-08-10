@@ -976,21 +976,7 @@ stop.eyebrow ? `${stop.time} · ${stop.eyebrow}` : stop.time;
   document.querySelector("#detail-map").href = stop.map;
   document.querySelector("#detail-tags").innerHTML = stop.tags.map(tag => `<span>${tag}</span>`).join("");
   document.querySelector("#detail-highlights").innerHTML = stop.highlights.map(item => `<li>${item}</li>`).join("");
-  const restaurantBlock = document.querySelector("#detail-restaurants");
-const restaurantList = document.querySelector("#restaurant-list");
-
-if (stop.restaurants) {
-  restaurantBlock.hidden = false;
-  restaurantList.innerHTML = stop.restaurants.map(item => `
-    <article class="restaurant-item">
-      <h4>${item.name}</h4>
-      <p>${item.note || ""}</p>
-      <a href="${item.map}" target="_blank">Google Map</a>
-    </article>
-  `).join("");
-} else {
-  restaurantBlock.hidden = true;
-}
+  
 const nearbyBlock = document.querySelector("#detail-nearby");
 const nearbyList = document.querySelector("#nearby-list");
 
@@ -1013,6 +999,23 @@ if (stop.nearby) {
   nearbyBlock.hidden = true;
   nearbyList.innerHTML = "";
 }
+
+  const restaurantBlock = document.querySelector("#detail-restaurants");
+const restaurantList = document.querySelector("#restaurant-list");
+
+if (stop.restaurants) {
+  restaurantBlock.hidden = false;
+  restaurantList.innerHTML = stop.restaurants.map(item => `
+    <article class="restaurant-item">
+      <h4>${item.name}</h4>
+      <p>${item.note || ""}</p>
+      <a href="${item.map}" target="_blank">Google Map</a>
+    </article>
+  `).join("");
+} else {
+  restaurantBlock.hidden = true;
+}
+  
   const note = document.querySelector("#detail-note");
   note.hidden = !stop.note;
   note.querySelector("p").textContent = stop.note || "";

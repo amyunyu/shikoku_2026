@@ -36,7 +36,7 @@ const days = [
         title: "UDON na HOTEL 琴平",
         eyebrow: "check in",
         summary: "Booking，含早餐",
-        map: https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7,
+        map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
         status: "confirmed"
       },
       {

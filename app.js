@@ -124,13 +124,11 @@ const days = [
   nearby: [
     {
     name: "Nazuna-dō 七十七堂",
-    type: "參拜途中",
     note: "位於參道77段附近，適合作為登拜前後的短暫休息點。",
     map: "https://maps.app.goo.gl/JWWMWAWdgtRVu2gy8"
   },
     {
   name: "五人百姓",
-  type: "參道小店",
   note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
   maps: [
     "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9",
@@ -156,19 +154,16 @@ const days = [
   nearby: [
     {
       name: "道の駅 空の夢もみの木パーク",
-      type: "途中休息",
       note: "適合作為琴平往脇町方向的補給停留。",
       map: "https://maps.app.goo.gl/ST7ezFZWen4H6N8d7"
     },
     {
       name: "道の駅 たからだの里さいた",
-      type: "途中休息",
       note: "可補給地方物產、飲料與簡單餐食。",
       map: "https://maps.app.goo.gl/5m8TxkPnPRY89xJZ7"
     },
     {
       name: "吉野川サービスエリア（下り）",
-      type: "簡單休息",
       note: "若選擇較快速移動，可作為途中停靠點。",
       map: "https://maps.app.goo.gl/qRDrMrm4coGAM9oj7"
     }
@@ -923,8 +918,7 @@ if (stop.nearby) {
   nearbyList.innerHTML = stop.nearby.map(item => `
     <article class="restaurant-item">
       <h4>${item.name}</h4>
-      <p>${item.type || ""}</p>
-      <p>${item.note || ""}</p>
+<p>${item.note || ""}</p>
       ${
   item.maps
     ? item.maps.map((url, index) =>

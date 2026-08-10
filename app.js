@@ -254,47 +254,88 @@ const days = [
         status: "confirmed"
       },
       {
-        time: "11:00",
+  time: "10:00",
+  title: "大步危峽谷觀光遊覽船",
+  eyebrow: "溪谷主景",
+  summary: "搭乘30分鐘遊船，從吉野川水面近距離欣賞大步危峽谷的岩壁與清流。",
+  detail: "大步危小步危為國指定名勝，其中上游約4公里的大步危峽谷，以2億年時間形成的岩石景觀聞名。搭乘觀光船沿吉野川巡航，是感受峽谷尺度最直接的方式。\n\n船程約30分鐘，沿途可近距離欣賞被稱為自然雕刻的岩壁景觀，讓山河景色成為這一天的重要記憶。",
+  nearby: [
+          {
+            name: "RiverStation West West",
+            note: "位於大歩危・祖谷入口處的綜合観光設施。",
+            map: "https://maps.app.goo.gl/Z1SaJHptXdEsyihC8"
+          },
+    {
+            name: "道の駅 大歩危",
+            map: "https://maps.app.goo.gl/ELtr69po9g9LcUoi6"
+          },
+          {
+            name: "Cafe & ジビエ",
+            map: "https://maps.app.goo.gl/ELtr69po9g9LcUoi6"
+          }
+        ],
+        highlights: [
+    "遊船約30分鐘",
+    "成人票價約1800日圓",
+    "雨天或河川狀況依現場判斷"
+  ],
+  map: "https://maps.app.goo.gl/b4xZ9zRweS5w8xpi9",
+  tags: ["溪谷", "紅葉", "遊船", "攝影"],
+        status: "confirmed"
+},
+      {
+        time: "11:30",
         title: "大步危・午餐",
         eyebrow: "午餐候選",
         summary: "在峽谷區先吃午餐，再決定遊船或展望停留。",
         detail: "午餐以當日營業與抵達時間決定。候選包含 Cafe & Jibie、Mori no Kumasan，以及おのみ家。",
+        restaurants: [
+          {
+            name: "Cafe & Jibie",
+            map: "https://maps.app.goo.gl/ggzqrks6WKzovaKUA",
+            note: "在道の駅 大歩危裡"
+          },
+          {
+            name: "おのみ家（おのみや）",
+            map: "https://maps.app.goo.gl/PmGhBWEzyEn45oPe9",
+            note: "定食，前往祖谷途中"
+          },
+          {
+            name: "森のくまさん",
+            map: "https://maps.app.goo.gl/DjSHSeeNg1nvQw5e9",
+            note: "在祖谷蔓橋駐車場附近，咖啡輕食"
+          }
+        ],
         highlights: ["Cafe & Jibie 位於道之驛大步危", "森のくまさん適合山間用餐", "保留候補避免臨時休業"],
         map: "https://maps.app.goo.gl/Gnf69LQdjonGTZRF7",
         tags: ["午餐", "峽谷"],
         status: "flex"
       },
       {
-        time: "13:00",
-        title: "大步危峽",
-        eyebrow: "溪谷",
-        summary: "看吉野川切出的深谷與秋季山色，遊船依時間與天候決定。",
-        detail: "大步危的重點是河谷尺度與岩壁層次。若搭遊船，要同步縮短其他停留；不搭船也可從展望處欣賞峽谷。",
-        highlights: ["遊船屬彈性選項", "預留 45–90 分鐘", "雨後與低溫注意甲板保暖"],
-        map: mapSearch("大步危峽觀光遊船"),
-        tags: ["峽谷", "紅葉", "攝影"],
-        status: "flex"
-      },
-      {
-        time: "14:30",
+        time: "13:30",
         title: "祖谷蔓橋",
         eyebrow: "祖谷",
         summary: "走過藤蔓橋與溪谷，把祖谷最具代表性的景觀留在午後。",
-        detail: "蔓橋周邊適合慢走，但不必把所有祖谷地標都塞入。原本的小便小僧停點已讓位給更有聚落文化感的落合集落。",
-        highlights: ["橋面有縫隙，穿止滑鞋", "停留約 45–60 分鐘", "現場視人流調整過橋時間"],
-        map: mapSearch("祖谷蔓橋"),
+        detail: "被列為日本三奇橋之一的祖谷葛藤橋，其起源有多種傳說，一說是這座橋是平家落人為了在後有追兵時能迅速切斷葛藤而特意建造的防禦設施；另一說則是巡行四國的弘法大師，為了幫助難以渡河的村民而親手建造的。\n\n被陡峭的四國山地環抱的祖谷地區，相傳是由在「屋島之戰」中戰敗的平國盛以及安德天皇一行人逃亡至此，為了祈求平家復興再起而定居下來的隱居村落，由於直到近代以前，這裡幾乎是與世隔絕的狀態，因此自中世以來的生活方式與獨特的風土民情得以幾乎完整的保留下來。",
+        nearby: [
+    {
+      name: "藤蔓橋夢舞台 駐車場",
+      map: "https://maps.app.goo.gl/jms7Z3rzrN4giAVi8"
+    },
+          {
+      name: "琵琶瀑布",
+      note: "從祖谷蔓橋步行50公尺即可達、有50公尺高的瀑布。\n\n傳說從前在源平大戰中戰敗的平氏家族殘兵逃到此地，懷想起京都，在這個瀑布旁彈奏琵琶以聊慰寂寥之心，琵琶瀑布因此得名。\n\n*再往前走50公尺左右有遊山步道，可以沿著石階往下走到河邊。",
+      map: "https://maps.app.goo.gl/gVrveo7V5gNrWgwn7"
+    },
+    {
+      name: "奧祖谷二重蔓橋",
+      note: "要在往東開車50分鐘，人比較少。",
+      map: "https://maps.app.goo.gl/pFrFYZs5RjbQBVvg9"
+    }
+  ],
+        highlights: ["門票每人550", "停留約 45–60 分鐘"],
+        map: "https://maps.app.goo.gl/yX5eu6ZMHA4EN6yB6",
         tags: ["溪谷", "文化", "攝影"],
-        status: "confirmed"
-      },
-      {
-        time: "15:45",
-        title: "落合集落展望所",
-        eyebrow: "山村景觀",
-        summary: "從山腰看傳統聚落沿斜坡展開，作為祖谷行程的收束。",
-        detail: "落合集落比短暫打卡更符合這趟旅行：山村生活、耕地與屋舍層疊在陡坡上，具有清楚的地方歷史感。",
-        highlights: ["建議停留 30–40 分鐘", "避免天黑後仍留在山區", "展望道路留意狹窄路段"],
-        map: mapSearch("落合集落展望所"),
-        tags: ["聚落", "攝影", "山路"],
         status: "confirmed"
       },
       {

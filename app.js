@@ -53,6 +53,11 @@ const days = [
             name: "Kotohira Stationery Store 琴平文具店",
             note: "金毘羅街道上，獨家的香川縣紙膠帶。",
             map: "https://maps.app.goo.gl/sFA9mAjk1uUc4PF26"
+          },
+          {
+            name: "旧金毘羅大芝居(金丸座)",
+            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。",
+            map: "https://maps.app.goo.gl/WrdpYbcGhcQYmzf59"
           }
         ],
         summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
@@ -126,15 +131,20 @@ const days = [
     name: "Nazuna-dō 七十七堂",
     note: "位於參道77段附近，適合作為登拜前後的短暫休息點。",
     map: "https://maps.app.goo.gl/JWWMWAWdgtRVu2gy8"
-  },
+    },
     {
-  name: "五人百姓",
-  note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
+      name: "五人百姓",
+      note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
   maps: [
     "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9",
     "https://maps.app.goo.gl/81kYKbxtLyr6WNoF6"
   ]
-}
+    },
+    {
+            name: "旧金毘羅大芝居(金丸座)",
+            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。",
+            map: "https://maps.app.goo.gl/WrdpYbcGhcQYmzf59"
+          }
   ],
   map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
   tags: ["神社", "參拜", "攝影"],
@@ -185,11 +195,33 @@ const days = [
       {
         time: "16:30",
         title: "入住 PAYSAGE MORIGUCHI",
-        eyebrow: "住宿",
+        eyebrow: "住宿。晚餐",
         summary: "提早回到古民家旅宿，讓住宿本身也成為今天的一段風景。",
         detail: "這晚不再安排遠程活動。入住後可在老街黃昏與夜色間散步，晚餐依旅宿建議或附近店家決定。",
+        restaurants: [
+          {
+            name: "Punta",
+            map: "https://maps.app.goo.gl/Gfc3h7GuRP2mW5pM8",
+            note: "義大利麵，住宿附近"
+          },
+          {
+            name: "元 手打ちうどん元",
+            map: "https://maps.app.goo.gl/WCbEd6tXihfdER2V6",
+            note: "烏龍麵，距離住宿走路15分鐘"
+          },
+          {
+            name: "Maharaja Spice マハラジャスパイス",
+            map: "https://maps.app.goo.gl/kJHPCtmJjFy9YqRd8",
+            note: "印度咖哩，要開車前往"
+          },
+          {
+            name: "麺屋・國丸 脇町店",
+            map: "https://maps.app.goo.gl/X3WLndDHTYAHNuBr6",
+            note: "拉麵，要開車前往"
+          }
+        ],
         highlights: ["古民家設計旅宿", "建議天黑前辦理入住", "晚餐選擇需再確認營業日"],
-        map: mapSearch("PAYSAGE MORIGUCHI 脇町"),
+        map: "https://maps.app.goo.gl/S7dpoYK4mrBMiJTm7",
         tags: ["住宿", "古民家"],
         status: "confirmed"
       }

@@ -45,17 +45,17 @@ const days = [
         eyebrow: "午後散步",
         nearby: [
           {
-            name: "平岡精肉店",
+            name: "➀ 平岡精肉店",
             note: "金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
             map: "https://maps.app.goo.gl/hMiHsLodfqbWmugH8"
           },
           {
-            name: "Kotohira Stationery Store 琴平文具店",
+            name: "➁ Kotohira Stationery Store 琴平文具店",
             note: "金毘羅街道上，獨家的香川縣紙膠帶。",
             map: "https://maps.app.goo.gl/sFA9mAjk1uUc4PF26"
           },
           {
-            name: "旧金毘羅大芝居(金丸座)",
+            name: "➂ 旧金毘羅大芝居(金丸座)",
             note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。",
             map: "https://maps.app.goo.gl/WrdpYbcGhcQYmzf59"
           }
@@ -72,12 +72,12 @@ const days = [
         title: "琴平晚餐",
         restaurants: [
           {
-            name: "Musashi 手打うどん むさし",
+            name: "➀ Musashi 手打うどん むさし",
             map: "https://maps.app.goo.gl/9fUeT7x5AmDs9t5d6",
             note: "Tablog 百名店 2024"
           },
           {
-            name: "Tanakaya 焼鳥・骨付鳥 田中屋",
+            name: "➁ Tanakaya 焼鳥・骨付鳥 田中屋",
             map: "https://maps.app.goo.gl/powo67dESZgjhcLY8",
             note: "香川代表性骨付鳥選項，不一定選這家"
           }
@@ -128,12 +128,12 @@ const days = [
   ],
   nearby: [
     {
-    name: "Nazuna-dō 七十七堂",
+    name: "➀ Nazuna-dō 七十七堂",
     note: "位於參道77段附近，適合作為登拜前後的短暫休息點。",
     map: "https://maps.app.goo.gl/JWWMWAWdgtRVu2gy8"
     },
     {
-      name: "五人百姓",
+      name: "➁ 五人百姓",
       note: "位於大門附近的傳統商家，可作為登拜途中短暫停留。",
   maps: [
     "https://maps.app.goo.gl/3Q4XcnS8S2T5aaUx9",
@@ -410,6 +410,13 @@ status:"confirmed"
         eyebrow: "街區與午餐",
         summary: "沿商店街走到市場，用藁燒鰹魚和土佐小菜認識高知日常。",
         detail: "「弘人市場」是高知旅遊必訪美食聚集地，集結約60間攤商，在地美食美酒諸如高知靈魂美食「鰹魚半敲燒」、夢幻「土佐褐毛牛」牛排、「高知18酒造」等各式日本酒，以及異國料理應有盡有，被稱為「高知的廚房」。\n\n座位採併桌方式，很有機會與在地人、各地旅客共桌。",
+        nearby: [
+  {
+  name: "ひろめ市場・攤位位置圖",
+  note: "市場內攤位配置參考。",
+  image: "assets/hirome-map.png"
+}
+],
         highlights: ["鰹魚藁燒是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],
         map: mapSearch("ひろめ市場 高知"),
         tags: ["市場", "午餐", "散步"],
@@ -1013,6 +1020,11 @@ if (stop.nearby) {
     <article class="restaurant-item">
       <h4>${item.name}</h4>
 <p>${item.note || ""}</p>
+${
+  item.image
+    ? `<a href="${item.image}" target="_blank">查看</a>`
+    : ""
+}
       ${
   item.maps
     ? item.maps.map((url, index) =>
@@ -1036,7 +1048,7 @@ if (stop.restaurants) {
     <article class="restaurant-item">
       <h4>${item.name}</h4>
       <p>${item.note || ""}</p>
-      <a href="${item.map}" target="_blank">Google Map</a>
+      <a href="${item.map}" target="_blank">地圖連結</a>
     </article>
   `).join("");
 } else {

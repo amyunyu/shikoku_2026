@@ -812,6 +812,8 @@ main {
   margin: 0 0 8px;
   color: #777267;
   font-size: 12px;
+  line-height: 1.8;
+  white-space: pre-line;
 }
 
 .restaurant-item a {

@@ -163,17 +163,17 @@ const days = [
   ],
   nearby: [
     {
-      name: "道の駅 空の夢もみの木パーク",
+      name: "➀ 道の駅 空の夢もみの木パーク",
       note: "適合作為琴平往脇町方向的補給停留。",
       map: "https://maps.app.goo.gl/ST7ezFZWen4H6N8d7"
     },
     {
-      name: "道の駅 たからだの里さいた",
+      name: "➁ 道の駅 たからだの里さいた",
       note: "可補給地方物產、飲料與簡單餐食。",
       map: "https://maps.app.goo.gl/5m8TxkPnPRY89xJZ7"
     },
     {
-      name: "吉野川サービスエリア（下り）",
+      name: "➂ 吉野川サービスエリア（下り）",
       note: "若選擇較快速移動，可作為途中停靠點。",
       map: "https://maps.app.goo.gl/qRDrMrm4coGAM9oj7"
     }
@@ -207,22 +207,22 @@ const days = [
         detail: "這晚不再安排遠程活動。入住後可在老街黃昏與夜色間散步，晚餐依旅宿建議或附近店家決定。",
         restaurants: [
           {
-            name: "Punta",
+            name: "➀ Punta",
             map: "https://maps.app.goo.gl/Gfc3h7GuRP2mW5pM8",
             note: "義大利麵，住宿附近"
           },
           {
-            name: "元 手打ちうどん元",
+            name: "➁ 元 手打ちうどん元",
             map: "https://maps.app.goo.gl/WCbEd6tXihfdER2V6",
             note: "烏龍麵，距離住宿走路15分鐘"
           },
           {
-            name: "Maharaja Spice マハラジャスパイス",
+            name: "➂ Maharaja Spice マハラジャスパイス",
             map: "https://maps.app.goo.gl/kJHPCtmJjFy9YqRd8",
             note: "印度咖哩，要開車前往"
           },
           {
-            name: "麺屋・國丸 脇町店",
+            name: "➃ 麺屋・國丸 脇町店",
             map: "https://maps.app.goo.gl/X3WLndDHTYAHNuBr6",
             note: "拉麵，要開車前往"
           }
@@ -295,17 +295,17 @@ status:"confirmed"
         ],
         restaurants: [
           {
-            name: "森のくまさん",
+            name: "➀ 森のくまさん",
             map: "https://maps.app.goo.gl/DjSHSeeNg1nvQw5e9",
             note: "在祖谷蔓橋駐車場附近，咖啡輕食"
           },
           {
-            name: "おのみ家（おのみや）",
+            name: "➁ おのみ家（おのみや）",
             map: "https://maps.app.goo.gl/PmGhBWEzyEn45oPe9",
             note: "定食，前往大步危途中"
           },
           {
-            name: "Cafe & Jibie",
+            name: "➂ Cafe & Jibie",
             map: "https://maps.app.goo.gl/ggzqrks6WKzovaKUA",
             note: "在道の駅 大歩危"
           }
@@ -323,16 +323,16 @@ status:"confirmed"
   detail: "大步危小步危為國指定名勝，其中上游約4公里的大步危峽谷，以2億年時間形成的岩石景觀聞名。搭乘觀光船沿吉野川巡航，是感受峽谷尺度最直接的方式。\n\n船程約30分鐘，沿途可近距離欣賞被稱為自然雕刻的岩壁景觀，讓山河景色成為這一天的重要記憶。",
   nearby: [
           {
-            name: "RiverStation West West",
+            name: "➀ RiverStation West West",
             note: "位於大歩危・祖谷入口處的綜合観光設施。",
             map: "https://maps.app.goo.gl/Z1SaJHptXdEsyihC8"
           },
     {
-            name: "道の駅 大歩危",
+            name: "➁ 道の駅 大歩危",
             map: "https://maps.app.goo.gl/ELtr69po9g9LcUoi6"
           },
           {
-            name: "Cafe & ジビエ",
+            name: "➂ Cafe & ジビエ",
             map: "https://maps.app.goo.gl/ELtr69po9g9LcUoi6"
           }
         ],
@@ -353,27 +353,27 @@ status:"confirmed"
         detail: "抵達後以入住與晚餐為主。高知連住兩晚能讓隔日城市文化行程更從容。",
         restaurants: [
           {
-            name: "Nikomichan にこみちゃん",
+            name: "➀ Nikomichan にこみちゃん",
             map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
             note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
           },
           {
-            name: "Imadoki Yasubei いまどき安兵衛",
+            name: "➁ Imadoki Yasubei いまどき安兵衛",
             map: "https://maps.app.goo.gl/4fiRk6EWTE6RRsmD6",
             note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
           },
           {
-            name: "Kamontei かもん亭",
+            name: "➂ Kamontei かもん亭",
             map: "https://maps.app.goo.gl/7sVzcT59tz6sdzjy6",
             note: "2025百名店，居酒屋，走路14分鐘"
           },
           {
-            name: "Cock Doll (コックドール)",
+            name: "➃ Cock Doll (コックドール)",
             map: "https://maps.app.goo.gl/NmQ8HZuVoKVnwK6h6",
             note: "2025百名店，蛋包飯漢堡排，走路18分鐘"
           },
           {
-            name: "Donko 酒亭どんこ",
+            name: "➄ Donko 酒亭どんこ",
             map: "https://maps.app.goo.gl/Hevt8jZRw1dPcy6y9",
             note: "2025百名店，居酒屋，走路14分鐘"
           }

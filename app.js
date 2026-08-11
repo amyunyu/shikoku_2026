@@ -237,7 +237,7 @@ const days = [
   {
     date: "11/17",
     weekday: "二",
-    place: "祖谷・高知",
+    place: "祖谷・大步危",
     title: "穿過山河，抵達土佐",
     lodging: "OMO7 高知 by 星野集團",
     lodgingMap: "https://maps.app.goo.gl/saWfbKz5Zh3PhBF17",
@@ -351,6 +351,33 @@ status:"confirmed"
         eyebrow: "住宿",
         summary: "離開祖谷後直達高知，連住兩晚、不再搬行李。",
         detail: "抵達後以入住與晚餐為主。高知連住兩晚能讓隔日城市文化行程更從容。",
+        restaurants: [
+          {
+            name: "Nikomichan にこみちゃん",
+            map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
+            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
+          },
+          {
+            name: "Imadoki Yasubei いまどき安兵衛",
+            map: "https://maps.app.goo.gl/4fiRk6EWTE6RRsmD6",
+            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
+          },
+          {
+            name: "Kamontei かもん亭",
+            map: "https://maps.app.goo.gl/7sVzcT59tz6sdzjy6",
+            note: "2025百名店，居酒屋，走路14分鐘"
+          },
+          {
+            name: "Cock Doll (コックドール)",
+            map: "https://maps.app.goo.gl/NmQ8HZuVoKVnwK6h6",
+            note: "2025百名店，蛋包飯漢堡排，走路18分鐘"
+          },
+          {
+            name: "Donko 酒亭どんこ",
+            map: "https://maps.app.goo.gl/Hevt8jZRw1dPcy6y9",
+            note: "2025百名店，居酒屋，走路14分鐘"
+          }
+        ],
         highlights: ["住宿第一晚", "晚餐依抵達時間就近安排", "隔日不用整理行李"],
         map: mapSearch("OMO7 高知 by 星野集團"),
         tags: ["住宿", "晚餐"],
@@ -371,7 +398,7 @@ status:"confirmed"
         title: "高知城",
         eyebrow: "城下町",
         summary: "從追手門走向現存天守，看石垣、木造建築與秋日銀杏。",
-        detail: "高知城是今天的文化主角。追手門與天守可同框，登城後也能理解土佐城下町的空間。",
+        detail: "現存的高知城是日本全國唯一保留整個本丸建築群的古城。天守閣為現存十二座天守之一，而能將追手門與天守拍在同一張照片中的，僅有高知城而已，因此也成為相當受歡迎的攝影景點。",
         highlights: ["停留約 1–1.5 小時", "追手門前適合拍建築同框", "城內階梯較陡"],
         map: mapSearch("高知城"),
         tags: ["城郭", "歷史", "攝影"],

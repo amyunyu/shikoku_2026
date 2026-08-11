@@ -1022,15 +1022,17 @@ if (stop.nearby) {
 <p>${item.note || ""}</p>
 ${
   item.image
-    ? `<a href="${item.image}" target="_blank">查看</a>`
+    ? `<a href="${item.image}" target="_blank">查看圖片</a>`
     : ""
 }
       ${
-  item.maps
-    ? item.maps.map((url, index) =>
-        `<a href="${url}" target="_blank">Google Map ${index + 1}</a>`
-      ).join("　")
-    : `<a href="${item.map}" target="_blank">Google Map</a>`
+  item.image
+    ? ""
+    : item.maps
+      ? item.maps.map((url, index) =>
+          `<a href="${url}" target="_blank">地圖連結 ${index + 1}</a>`
+        ).join("　")
+      : `<a href="${item.map}" target="_blank">地圖連結</a>`
 }
     </article>
   `).join("");

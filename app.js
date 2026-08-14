@@ -629,8 +629,10 @@ status:"confirmed"
   map: "https://maps.app.goo.gl/aodQrkqn7N3u82JUA",
   tags: ["住宿", "民宿", "海鮮", "室戶"],
   status: "flex"
-  },
-    {
+}
+]
+},
+{
   date: "11/20",
   weekday: "五",
   place: "東洋町・海陽",

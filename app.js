@@ -472,7 +472,7 @@ status:"confirmed"
   {
     date: "11/19",
     weekday: "四",
-    place: "宇和島",
+    place: "安藝。室戶",
     title: "沿著土佐灣，向南予去",
     lodging: "JR Hotel Clement 宇和島",
     lodgingMap: "https://maps.app.goo.gl/p46yQPnAb1XfGcmP8",
@@ -526,7 +526,7 @@ status:"confirmed"
   {
     date: "11/20",
     weekday: "五",
-    place: "宇和島",
+    place: "室戶。東陽町",
     title: "城與溪谷，南予的秋日",
     lodging: "JR Hotel Clement 宇和島",
     lodgingMap: "https://maps.app.goo.gl/p46yQPnAb1XfGcmP8",
@@ -592,7 +592,7 @@ status:"confirmed"
   {
     date: "11/21",
     weekday: "六",
-    place: "內子・下灘・松山",
+    place: "日和佐。阿南",
     title: "從白壁町家，走向伊予灘",
     lodging: "REF 松山市站 by VESSEL",
     lodgingMap: mapSearch("REF 松山市站 by VESSEL"),
@@ -647,7 +647,7 @@ status:"confirmed"
   {
     date: "11/22",
     weekday: "日",
-    place: "松山",
+    place: "太龍寺。德島",
     title: "城下與湯煙，松山慢遊",
     lodging: "REF 松山市站 by VESSEL",
     lodgingMap: mapSearch("REF 松山市站 by VESSEL"),
@@ -712,7 +712,7 @@ status:"confirmed"
   {
     date: "11/23",
     weekday: "一",
-    place: "西條",
+    place: "鳴門。淡路島",
     title: "石鎚山麓，留一晚空白",
     lodging: "ITOMACHI Hotel 0",
     lodgingMap: mapSearch("ITOMACHI Hotel 0 西條"),
@@ -766,7 +766,7 @@ status:"confirmed"
   {
     date: "11/24",
     weekday: "二",
-    place: "高松",
+    place: "勇者鬥惡龍",
     title: "回到讚岐，在庭園收光",
     lodging: "多美迎高松中央公園前",
     lodgingMap: mapSearch("多美迎高松中央公園前"),

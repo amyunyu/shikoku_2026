@@ -1264,59 +1264,170 @@ status:"confirmed"
   ]
 },
   {
-    date: "11/24",
-    weekday: "二",
-    place: "勇者鬥惡龍",
-    title: "回到讚岐，在庭園收光",
-    lodging: "多美迎高松中央公園前",
-    lodgingMap: mapSearch("多美迎高松中央公園前"),
-    stops: [
-      {
-        time: "09:30",
-        title: "西條退房・往香川",
-        eyebrow: "瀨戶內回程",
-        summary: "沿瀨戶內方向回到香川，進入旅程最後兩晚。",
-        detail: "西條到高松約兩小時。途中不刻意加入別子銅山等大型繞路，把午後完整留給栗林公園。",
-        highlights: ["早餐後從容出發", "進入香川後安排烏龍麵", "避免下午太晚抵達栗林公園"],
-        map: mapSearch("西條 到 栗林公園"),
-        tags: ["移動", "瀨戶內"],
-        status: "confirmed"
-      },
-      {
-        time: "12:00",
-        title: "讚岐烏龍麵",
-        eyebrow: "午餐",
-        summary: "回到香川後先吃一碗烏龍麵，店家依實際動線與營業時間決定。",
-        detail: "山越うどん與長田 in 香の香皆為候選，但烏龍麵店常提早售完，因此不把單一店家寫死。",
-        highlights: ["出發前確認營業日", "售完即止很常見", "以不繞路為優先"],
-        map: mapSearch("長田 in 香の香"),
-        tags: ["午餐", "烏龍麵"],
-        status: "flex"
-      },
-      {
-        time: "14:30",
-        title: "栗林公園",
-        eyebrow: "秋色庭園",
-        summary: "走過南湖、偃月橋與飛來峰，把午後斜光留給庭園。",
-        detail: "栗林公園是回到高松後最重要的秋景。安排在沒有回程壓力的下午，能慢慢看池泉、松景與晚秋色彩。",
-        highlights: ["飛來峰俯瞰南湖", "偃月橋與掬月亭一帶", "留意秋季夜間點燈資訊"],
-        map: mapSearch("栗林公園"),
-        tags: ["庭園", "紅葉", "攝影"],
-        status: "confirmed"
-      },
-      {
-        time: "18:00",
-        title: "入住高松・中央商店街",
-        eyebrow: "住宿",
-        summary: "連住兩晚，晚上步行逛丸龜町一帶或吃骨付鳥。",
-        detail: "飯店位於中央公園附近。第一晚可安排一鶴骨付鳥或商店街晚餐，之後不需再開車。",
-        highlights: ["住宿第一晚", "骨付鳥一鶴為晚餐候選", "飯店周邊步行活動"],
-        map: mapSearch("多美迎高松中央公園前"),
-        tags: ["住宿", "晚餐", "商店街"],
-        status: "confirmed"
-      }
-    ]
-  },
+  date: "11/24",
+  weekday: "二",
+  place: "淡路島・DQ Island",
+  title: "勇者的島，今晚住進史萊姆",
+  lodging: "GRAND CHARIOT 北斗七星135°",
+  lodgingMap: mapSearch("GRAND CHARIOT 北斗七星135°"),
+  lodgingNote: "スライムのコクーン〈和〉｜夕朝食付｜DQ住宿特典",
+  stops: [
+    {
+      time: "08:30",
+      title: "MAGATAMA.INN 退房・往淡路島北部",
+      eyebrow: "勇者之日",
+      summary: "離開洲本，沿淡路島一路向北，正式進入整趟旅程最期待的 Dragon Quest 主題日。",
+      detail: "早餐與整理行李後，從 MAGATAMA.INN 退房。今天不安排其他大型景點，把完整時間留給二次元之森、Dragon Quest Island 與 GRAND CHARIOT。\n\n從洲本往淡路島北部移動，抵達二次元之森指定停車場後，不需要先正式 Check-in，即可依住宿 FAQ 的流程先寄放行李並領取住宿特典票券。",
+      highlights: [
+        "約08:30退房",
+        "今天不安排其他大型景點",
+        "行李直接帶往 GRAND CHARIOT",
+        "抵達停車場後先辦寄放行李與領票"
+      ],
+      map: "https://maps.app.goo.gl/rCEhLTdrxnFvVVcT8?g_st=ic",
+      tags: ["退房", "移動", "淡路島"],
+      status: "confirmed"
+    },
+    {
+      time: "10:00",
+      title: "二次元之森停車場・聯絡 GRAND CHARIOT",
+      eyebrow: "寄放行李・領住宿特典",
+      summary: "抵達停車場後先打電話聯絡飯店，由專用車接送，寄放行李並領取 DQ Island 住宿特典票券。",
+      detail: "GRAND CHARIOT 位於一般車輛無法直接開到門口的位置，因此抵達二次元之森停車場後，依官方 FAQ 指示，先打電話聯絡飯店。\n\n電話：0799-64-7090\n\n告知今天有住宿預約、已抵達停車場，並希望在正式 Check-in 前先寄放行李及領取住宿特典票券。飯店會安排專用車接送。\n\n住宿方案每位住宿者附 DQ Island Light Ticket。今天預計在正式入住前先使用，因此領票時也一併詢問 Premium 升級方式。",
+      highlights: [
+        "抵達停車場後先聯絡 GRAND CHARIOT",
+        "電話：0799-64-7090",
+        "由飯店專用車接送",
+        "Check-in 前可先寄放行李",
+        "Check-in 前可先領住宿附 DQ Light Ticket"
+      ],
+      nearby: [
+        {
+          name: "電話日文",
+          note: "こんにちは。本日宿泊予定のワン ユンユーです。今、ニジゲンノモリの駐車場に着きました。チェックイン前に宿泊特典のチケットを受け取りたいです。荷物も預けたいです。お迎えをお願いできますか。"
+        },
+        {
+          name: "電話英文",
+          note: "Hello, this is Wang Yun-Yu. I have a reservation for today. We have just arrived at the Nijigen no Mori parking lot. We would like to get our accommodation tickets before check-in and leave our luggage. Could you please pick us up?"
+        }
+      ],
+      note: "實際指定停車場位置以住宿確認信與當日 GRAND CHARIOT 指示為準。",
+      map: mapSearch("ニジゲンノモリ F駐車場"),
+      tags: ["停車", "接送", "寄放行李", "領票"],
+      status: "confirmed"
+    },
+    {
+      time: "10:30",
+      title: "DQ Ticket・Premium 升級確認",
+      eyebrow: "住宿特典",
+      summary: "領取住宿附的 Light Ticket，同時確認先生升級 Premium、兩人是否可選不同票種。",
+      detail: "スライムのコクーン〈和〉住宿方案包含每位住宿者一張 DQ Island Light Ticket。\n\n官方住宿資訊亦標示，可補差額升級 Gold 或 Premium。先生目前以 Premium 為第一順位；另一位可依當天限定周邊與實際方案，再決定 Gold 或 Premium。\n\n領票時需確認三件事：是否能當場升級 Premium、兩位住宿者是否可以選擇不同票種，以及實際需補多少差額。",
+      highlights: [
+        "住宿每人附一張 Light Ticket",
+        "先生：Premium 優先",
+        "另一位：Gold 或 Premium 現場決定",
+        "確認兩人是否能升不同票種",
+        "確認當日 Premium 補差額",
+        "確認 Premium 限定周邊庫存"
+      ],
+      note: "Premium 升級方式、差額與不同票種搭配目前保留現場／事前確認，不先標記為完全確定。",
+      map: mapSearch("ドラゴンクエスト アイランド"),
+      tags: ["DQ", "Premium", "票券", "住宿特典"],
+      status: "flex"
+    },
+    {
+      time: "11:00",
+      title: "Dragon Quest Island",
+      eyebrow: "今日主景",
+      summary: "正式成為冒險者，把白天完整留給 Dragon Quest Island 主線與支線任務。",
+      detail: "今天的主角是二次元之森 Dragon Quest Island。\n\n2026 年版本為「いにしえの魔神と導かれし冒険者たち」。住宿附的是 Light Ticket，如果現場升級 Premium，則可在主線之外體驗 Gold 對應的支線內容，並取得 Premium 限定特典。\n\n因為先生本身非常喜歡 Dragon Quest，所以今天不以『快速破關』為目標，而是預留足夠時間看場景、解任務、拍照、逛商店與感受園區細節。",
+      highlights: [
+        "2026版：いにしえの魔神と導かれし冒険者たち",
+        "Light：主線任務",
+        "Gold：主線＋支線",
+        "Premium：Gold內容＋限定特典",
+        "建議預留約4小時以上",
+        "不另外安排其他大型淡路島景點"
+      ],
+      map: mapSearch("ドラゴンクエスト アイランド ニジゲンノモリ"),
+      tags: ["Dragon Quest", "二次元之森", "主題樂園", "必去"],
+      status: "confirmed"
+    },
+    {
+      time: "15:30",
+      title: "GRAND CHARIOT Check-in",
+      eyebrow: "入住主題旅宿",
+      summary: "結束白天冒險後，由二次元之森進入今晚真正的主角——GRAND CHARIOT 北斗七星135°。",
+      detail: "下午結束 DQ Island 後正式辦理 GRAND CHARIOT Check-in。\n\n今晚住宿的是 Dragon Quest 聯名房型「スライムのコクーン〈和〉」。房型約60㎡，以日式現代空間結合 Dragon Quest 元素，並設有私人露台與檜木風呂。\n\n正式入住後不再安排開車外出，接下來的時間全部留給房間、晚餐與住宿本身。",
+      highlights: [
+        "入住：GRAND CHARIOT 北斗七星135°",
+        "房型：スライムのコクーン〈和〉",
+        "約60㎡",
+        "日式現代 × Dragon Quest",
+        "私人露台",
+        "檜木風呂",
+        "夕朝食付"
+      ],
+      map: mapSearch("GRAND CHARIOT 北斗七星135°"),
+      tags: ["住宿", "DQ", "主題房", "檜木風呂"],
+      status: "confirmed"
+    },
+    {
+      time: "16:00",
+      title: "スライムのコクーン〈和〉",
+      eyebrow: "房間也是冒險",
+      summary: "把下午留在史萊姆房裡，尋找小小勳章、看限定備品，慢慢享受這晚真正的住宿體驗。",
+      detail: "進房後不要急著休息，因為スライムのコクーン〈和〉本身就包含許多 Dragon Quest 元素。\n\n房內設有『ちいさなメダル』任務，找到3枚小小勳章後，可依住宿方案規則取得原創特典。房內亦包含原創浴衣、扇子、Message Card、水果盤等住宿限定內容。\n\nMinibar 內飲品亦包含在住宿體驗中，可以慢慢享用。這段時間不排任何外部行程，避免花了高價住聯名房卻沒有真正享受到房間。",
+      highlights: [
+        "房內小小勳章任務",
+        "尋找3枚ちいさなメダル",
+        "原創浴衣",
+        "原創扇子",
+        "Message Card",
+        "原創水果盤",
+        "Minibar 飲品",
+        "留時間拍房間與限定細節"
+      ],
+      map: mapSearch("GRAND CHARIOT 北斗七星135°"),
+      tags: ["主題房", "限定特典", "DQ", "住宿體驗"],
+      status: "confirmed"
+    },
+    {
+      time: "18:00",
+      title: "GRAND CHARIOT 晚餐",
+      eyebrow: "旅宿晚餐",
+      summary: "今晚不再外出找餐廳，把晚餐也留在 GRAND CHARIOT 的住宿體驗裡。",
+      detail: "住宿方案已包含晚餐。實際用餐時間依住宿當日安排與 Check-in 時確認的時段為準。\n\n白天已經在 DQ Island 活動數小時，因此晚上不再安排需要趕時間的外部景點。吃完晚餐後可依體力決定是否參加住宿附贈的期間限定夜間活動。",
+      highlights: [
+        "住宿方案包含晚餐",
+        "實際用餐時段 Check-in 時確認",
+        "晚餐後不安排開車",
+        "保留夜間活動與房內休息彈性"
+      ],
+      map: mapSearch("GRAND CHARIOT 北斗七星135°"),
+      tags: ["晚餐", "住宿", "休息"],
+      status: "confirmed"
+    },
+    {
+      time: "晚上",
+      title: "期間限定夜間活動・或留在史萊姆房",
+      eyebrow: "夜間彈性",
+      summary: "住宿特典若仍包含夜間活動，可依當期內容與體力決定參加；不為免費票券硬塞行程。",
+      detail: "目前住宿方案頁面顯示包含二次元之森期間限定夜間活動票券，但官方亦註明活動內容可能變更，因此 2026 年 11 月實際內容需在出發前再次確認。\n\n如果當期活動很有興趣，可以晚餐後參加；如果白天 DQ Island 已經玩得很充分，則直接留在スライムのコクーン〈和〉泡檜木風呂、喝飲料、整理照片，也是更值得的選擇。",
+      highlights: [
+        "夜間活動屬住宿附贈特典",
+        "2026/11實際活動內容待確認",
+        "是否參加依興趣與體力決定",
+        "不因為免費附票而硬塞",
+        "留時間享受檜木風呂與房間"
+      ],
+      note: "出發前再次確認 GRAND CHARIOT 當期住宿特典與夜間活動內容。",
+      map: mapSearch("ニジゲンノモリ"),
+      tags: ["夜間活動", "彈性", "住宿"],
+      status: "flex"
+    }
+  ]
+},
   {
     date: "11/25",
     weekday: "三",

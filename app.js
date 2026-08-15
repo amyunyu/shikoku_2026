@@ -1490,7 +1490,7 @@ status:"confirmed"
       detail: "可以在伊弉諾神宮周邊簡單吃淡路牛、海鮮、洋蔥料理，也可以改成途中休息站解決。\n\n今天午餐的重點是順路、快速、停車方便。目標約11:50左右重新上路。",
       highlights: [
         "用餐約30分鐘",
-        "淡路牛／海鮮／洋蔥料理皆可"
+        "淡路牛／海鮮／洋蔥料理皆可",
         "11:50左右重新出發"
       ],
       map: mapSearch("伊弉諾神宮 ランチ"),
@@ -1994,10 +1994,13 @@ function openStop(stopIndex, triggerElement) {
   document.querySelector("#detail-eyebrow").textContent =
 stop.eyebrow ? `${stop.time} · ${stop.eyebrow}` : stop.time;
   document.querySelector("#detail-title").textContent = stop.title;
-  document.querySelector("#detail-text").textContent = stop.detail;
+  document.querySelector("#detail-text").textContent =
+  stop.detail || stop.summary || "";
   document.querySelector("#detail-map").href = stop.map;
-  document.querySelector("#detail-tags").innerHTML = stop.tags.map(tag => `<span>${tag}</span>`).join("");
-  document.querySelector("#detail-highlights").innerHTML = stop.highlights.map(item => `<li>${item}</li>`).join("");
+  document.querySelector("#detail-tags").innerHTML =
+  (stop.tags || []).map(tag => `<span>${tag}</span>`).join("");
+  document.querySelector("#detail-highlights").innerHTML =
+  (stop.highlights || []).map(item => `<li>${item}</li>`).join("");
   
 const nearbyBlock = document.querySelector("#detail-nearby");
 const nearbyList = document.querySelector("#nearby-list");
@@ -2071,7 +2074,9 @@ function changeDay(index) {
 function renderHotelList() {
   const hotels = [];
 
-  days.slice(0, 11).forEach(day => {
+  days
+  .filter(day => day.lodging !== "今日返台・無住宿")
+  .forEach(day => {
     const previousHotel = hotels.at(-1);
     if (previousHotel && previousHotel.name === day.lodging) {
       previousHotel.endDate = day.date;

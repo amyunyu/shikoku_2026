@@ -1470,7 +1470,7 @@ status:"confirmed"
       title: "伊弉諾神宮",
       eyebrow: "國生神話與夫婦之神",
       summary: "在離開淡路島以前，走完這趟旅行的國生神話線。",
-      detail: "伊弉諾神宮祭祀伊弉諾尊與伊弉冉尊——《古事記》國生神話中創造日本列島的夫妻神。傳說兩神首先誕生的島嶼便是淡路島，因此淡路島也有「國生之島」與「夫婦的故鄉」之稱。\n\n伊弉諾神宮被視為與《古事記》、《日本書紀》創世神話淵源極深的古社。境內也能看到象徵男女和合的「鶺鴒（せきれい）」意象；自古鶺鴒被奉為夫妻圓滿的神鳥，因此境內設有「せきれいの里」。\n\n今天停留控制在約40～45分鐘，走主要參道、拜殿與夫婦大楠即可，不需要把境內每一處都走完。重點是替淡路島的神話主題收尾。",
+      detail: "伊弉諾神宮祭祀伊弉諾尊與伊弉冉尊——《古事記》國生神話中創造日本列島的夫妻神。傳說兩神首先誕生的島嶼便是淡路島，因此淡路島也有「國生之島」與「夫婦的故鄉」之稱。\n\n伊弉諾神宮被視為與《古事記》、《日本書紀》創世神話淵源極深的古社。境內也能看到象徵男女和合的「鶺鴒（せきれい）」意象；自古鶺鴒被奉為夫妻圓滿的神鳥，因此境內設有「せきれいの里」。\n\n走主要參道、拜殿與夫婦大楠即可，不需要把境內每一處都走完。重點是替淡路島的神話主題收尾。",
       highlights: [
         "淡路國一宮",
         "祭祀伊弉諾尊・伊弉冉尊",
@@ -1509,11 +1509,13 @@ status:"confirmed"
             note: "從神宮離開後順路20分鐘車程。看起來也有淡路牛、海鮮刺身套餐"
           },
           {
-            name: "➂ 淡路島漢堡 淡路島Onion Kitchen 渦之丘店&渦町Terrace店",
-            map: "https://maps.app.goo.gl/SDXXiBgz9bAop31G7",
-            "https://maps.app.goo.gl/71d9iy6MkyqNrmGe7",
-            note: "兩家分店在鳴門大橋前跟途中"
-          }
+  name: "➂ 淡路島漢堡 淡路島Onion Kitchen",
+  maps: [
+    "https://maps.app.goo.gl/SDXXiBgz9bAop31G7",
+    "https://maps.app.goo.gl/71d9iy6MkyqNrmGe7"
+  ],
+  note: "渦之丘店／渦町Terrace店，兩家分店分別位於鳴門大橋前與途中。"
+}
         ],
       map: mapSearch("伊弉諾神宮 ランチ"),
       tags: ["午餐", "淡路島", "地方料理"],
@@ -2059,15 +2061,25 @@ const restaurantList = document.querySelector("#restaurant-list");
 
 if (stop.restaurants) {
   restaurantBlock.hidden = false;
+
   restaurantList.innerHTML = stop.restaurants.map(item => `
     <article class="restaurant-item">
       <h4>${item.name}</h4>
       <p>${item.note || ""}</p>
-      <a href="${item.map}" target="_blank">地圖連結</a>
+
+      ${
+        item.maps
+          ? item.maps.map((url, index) =>
+              `<a href="${url}" target="_blank">地圖連結 ${index + 1}</a>`
+            ).join("　")
+          : `<a href="${item.map}" target="_blank">地圖連結</a>`
+      }
+
     </article>
   `).join("");
 } else {
   restaurantBlock.hidden = true;
+  restaurantList.innerHTML = "";
 }
   
   const note = document.querySelector("#detail-note");

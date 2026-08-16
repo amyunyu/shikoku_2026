@@ -56,7 +56,7 @@ const days = [
           },
           {
             name: "➂ 旧金毘羅大芝居(金丸座)",
-            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。\n\n明天還可以去。",
+            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。\n明天還可以去。",
             map: "https://maps.app.goo.gl/BDGj3FvLf1gmqwP6A?g_st=ic"
           }
         ],
@@ -74,12 +74,12 @@ const days = [
           {
             name: "➀ Musashi 手打うどん むさし",
             map: "https://maps.app.goo.gl/9fUeT7x5AmDs9t5d6",
-            note: "2024百名店"
+            note: "2024百名店。"
           },
           {
             name: "➁ Iwanoya セルフうどん いわのや",
             map: "https://maps.app.goo.gl/Ca7A5piFs7WieaLV6?g_st=ic",
-            note: "烏龍麵，10:00-15:00"
+            note: "烏龍麵，10:00-15:00。"
           }
         ],
         summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
@@ -94,7 +94,7 @@ const days = [
   {
     date: "11/16",
     weekday: "一",
-    place: "脇町",
+    place: "金刀比羅・脇町",
     title: "白壁商街，秋光緩行",
     lodging: "PAYSAGE MORIGUCHI",
     lodgingMap: "https://maps.app.goo.gl/HggrojLCHYgYS3dB6",
@@ -164,12 +164,12 @@ const days = [
   nearby: [
     {
       name: "➀ 道の駅 空の夢もみの木パーク",
-      note: "適合作為琴平往脇町方向的補給停留。有人孔蓋卡。\n\n小型在地農產＋まんのう特色商品，例如向日葵籽冰淇淋。\n\nひまわり牛肉うどん 向日葵牛肉烏龍麵。",
+      note: "適合作為琴平往脇町方向的補給停留。有人孔蓋卡。\n小型在地農產＋まんのう特色商品，例如向日葵籽冰淇淋。\nひまわり牛肉うどん 向日葵牛肉烏龍麵。",
       map: "https://maps.app.goo.gl/SrxaYX6Xcwn4dsLp6?g_st=ic"
     },
     {
       name: "➁ 道の駅 たからだの里さいた",
-      note: "週一休館...規模比較大。主打財田當地的朝採蔬果、加工品、惣菜，而且現在還有麵包工房，官方說有40種以上現烤麵包。\n\n手作りアイスクリーム。三豐市觀光官方資料寫到，他們使用當地旬水果製作的冰淇淋，曾獲得四國地區道之駅冰淇淋選手權 Grand Prix。",
+      note: "週一休館...規模比較大。主打財田當地的朝採蔬果、加工品、惣菜，而且現在還有麵包工房，官方說有40種以上現烤麵包。\n手作りアイスクリーム。三豐市觀光官方資料寫到，他們使用當地旬水果製作的冰淇淋，曾獲得四國地區道之駅冰淇淋選手權 Grand Prix。",
       map: "https://maps.app.goo.gl/3CXZFvdYjhzfpxf98?g_st=ic"
     },
     {
@@ -209,22 +209,22 @@ const days = [
           {
             name: "➀ Punta",
             map: "https://maps.app.goo.gl/Gfc3h7GuRP2mW5pM8",
-            note: "義大利麵，住宿附近"
+            note: "義大利麵，住宿附近。"
           },
           {
             name: "➁ 元 手打ちうどん元",
             map: "https://maps.app.goo.gl/WCbEd6tXihfdER2V6",
-            note: "烏龍麵，距離住宿走路15分鐘"
+            note: "烏龍麵，距離住宿走路15分鐘。"
           },
           {
             name: "➂ Maharaja Spice マハラジャスパイス",
             map: "https://maps.app.goo.gl/kJHPCtmJjFy9YqRd8",
-            note: "印度咖哩，要開車前往"
+            note: "印度咖哩，要開車前往。"
           },
           {
             name: "➃ 麺屋・國丸 脇町店",
             map: "https://maps.app.goo.gl/X3WLndDHTYAHNuBr6",
-            note: "拉麵，要開車前往"
+            note: "拉麵，要開車前往。"
           }
         ],
         highlights: ["古民家設計旅宿", "建議天黑前辦理入住", "晚餐選擇需再確認營業日"],
@@ -241,10 +241,11 @@ const days = [
     title: "穿過山河，抵達土佐",
     lodging: "OMO7 高知 by 星野集團",
     lodgingMap: "https://maps.app.goo.gl/saWfbKz5Zh3PhBF17",
+    lodgingNote: "Booking。含早餐",
     stops: [
       {
         time: "08:30",
-        title: "脇町出發・大步危方向",
+        title: "脇町出發・祖谷方向",
         eyebrow: "山路移動",
         summary: "在住宿用早餐後離開，逐漸進入四國山地與吉野川峽谷。",
         detail: "這一天是全程山區核心日。\n從脇町到奧祖谷二重蔓橋山路約1h40m，路上好像沒有休息站喔",
@@ -289,7 +290,7 @@ status:"confirmed"
     },
           {
       name: "琵琶瀑布",
-      note: "從祖谷蔓橋步行50公尺即可達、有50公尺高的瀑布。\n\n傳說從前在源平大戰中戰敗的平氏家族殘兵逃到此地，懷想起京都，在這個瀑布旁彈奏琵琶以聊慰寂寥之心，琵琶瀑布因此得名。\n\n*再往前走50公尺左右有遊山步道，可以沿著石階往下走到河邊。",
+      note: "從祖谷蔓橋步行50公尺即可達、有50公尺高的瀑布。\n傳說從前在源平大戰中戰敗的平氏家族殘兵逃到此地，懷想起京都，在這個瀑布旁彈奏琵琶以聊慰寂寥之心，琵琶瀑布因此得名。\n*再往前走50公尺左右有遊山步道，可以沿著石階往下走到河邊。",
       map: "https://maps.app.goo.gl/gVrveo7V5gNrWgwn7"
     }
         ],
@@ -355,27 +356,27 @@ status:"confirmed"
           {
             name: "➀ Nikomichan にこみちゃん",
             map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
-            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
+            note: "燉煮類燒烤刺身，走路4分鐘。"
           },
           {
             name: "➁ Imadoki Yasubei いまどき安兵衛",
             map: "https://maps.app.goo.gl/4fiRk6EWTE6RRsmD6",
-            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘"
+            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘。"
           },
           {
             name: "➂ Kamontei かもん亭",
             map: "https://maps.app.goo.gl/7sVzcT59tz6sdzjy6",
-            note: "2025百名店，居酒屋，走路14分鐘"
+            note: "2025百名店，居酒屋，走路14分鐘。"
           },
           {
             name: "➃ Cock Doll (コックドール)",
             map: "https://maps.app.goo.gl/NmQ8HZuVoKVnwK6h6",
-            note: "2025百名店，蛋包飯漢堡排，走路18分鐘"
+            note: "2025百名店，蛋包飯漢堡排，走路18分鐘。"
           },
           {
             name: "➄ Donko 酒亭どんこ",
             map: "https://maps.app.goo.gl/Hevt8jZRw1dPcy6y9",
-            note: "2025百名店，居酒屋，走路14分鐘"
+            note: "2025百名店，居酒屋，走路14分鐘。饕客推薦蕎麥麵搭配炸雞。"
           }
         ],
         highlights: ["住宿第一晚", "晚餐依抵達時間就近安排", "隔日不用整理行李"],
@@ -392,6 +393,7 @@ status:"confirmed"
     title: "城下町與土佐的日常",
     lodging: "OMO7 高知 by 星野集團",
     lodgingMap: mapSearch("OMO7 高知 by 星野集團"),
+    lodgingNote: "Booking。含早餐",
     stops: [
       {
         time: "09:00",
@@ -409,7 +411,7 @@ status:"confirmed"
         title: "帯屋町・弘人市場",
         eyebrow: "街區與午餐",
         summary: "沿商店街走到市場，用藁燒鰹魚和土佐小菜認識高知日常。",
-        detail: "「弘人市場」是高知旅遊必訪美食聚集地，集結約60間攤商，在地美食美酒諸如高知靈魂美食「鰹魚半敲燒」（鰹のたたき）、夢幻「土佐褐毛牛」牛排、「高知18酒造」等各式日本酒，以及異國料理應有盡有，被稱為「高知的廚房」。\n\n座位採併桌方式，很有機會與在地人、各地旅客共桌。",
+        detail: "「弘人市場」是高知旅遊必訪美食聚集地，集結約60間攤商，在地美食美酒諸如高知靈魂美食「鰹魚半敲燒」（鰹のたたき）、夢幻「土佐褐毛牛」牛排、「高知18酒造」等各式日本酒，以及異國料理應有盡有，被稱為「高知的廚房」。\n* 座位採併桌方式，很有機會與在地人、各地旅客共桌。",
         nearby: [
   {
   name: "ひろめ市場・攤位位置圖",
@@ -418,7 +420,11 @@ status:"confirmed"
   },
           {
             name: "➀ 明神丸 ひろめ市場店",
-            note: "編號14的位置，稻草炙燒鰹魚/鰹魚半敲燒（鰹のたたき）。\n\n高知縣是日本最愛吃鰹魚的地方。"
+            note: "編號14的位置，稻草炙燒鰹魚/鰹魚半敲燒（鰹のたたき）。\n高知縣是日本最愛吃鰹魚的地方。"
+          },
+          {
+            name: "➀-1 Myojinmaru Hanare 明神丸はなれ",
+            note: "市場外的分店，也許比較舒服。稻草炙燒鰹魚/鰹魚半敲燒（鰹のたたき）。"
           },
           {
             name: "➁ ひろめの奥 鰻祭",
@@ -429,7 +435,7 @@ status:"confirmed"
             note: "編號59的位置，土佐褐毛牛。"
           }
         ],
-        highlights: ["鰹魚料理是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],
+        highlights: ["鰹魚料理是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],((
         map: "https://maps.app.goo.gl/yRe3afMtZNktomaT9",
         tags: ["市場", "午餐", "散步"],
         status: "confirmed"
@@ -443,7 +449,7 @@ status:"confirmed"
         highlights: ["建議停留約 2 小時", "園區有坡度，穿好走鞋", "留意閉園時間"],
         map: mapSearch("高知縣立牧野植物園"),
         tags: ["植物", "建築", "攝影"],
-        status: "confirmed"
+        status: "flex"
       },
       {
         time: "16:15",
@@ -452,7 +458,7 @@ status:"confirmed"
         summary: "在五重塔、苔庭與古寺空間中收束下午。",
         detail: "竹林寺就在牧野植物園附近，適合合併安排。是否再前往五台山展望點，依當天時間和能見度決定。",
         highlights: ["四國八十八所第 31 番", "苔庭與五重塔值得慢看", "桂濱不列為必要行程"],
-        map: mapSearch("竹林寺 高知"),
+        map: "https://maps.app.goo.gl/z8SLV4HkWyRu9jRp7?g_st=ic",=
         tags: ["寺院", "庭園"],
         status: "confirmed"
       },
@@ -466,7 +472,26 @@ status:"confirmed"
         map: mapSearch("OMO7 高知 by 星野集團"),
         tags: ["住宿", "晚餐"],
         status: "confirmed"
-      }
+      },
+      {
+  time: "19:30",
+  title: "土佐望月温泉 姫若子の湯",
+  eyebrow: "日歸溫泉・晚間彈性",
+  summary: "如果白天走得比較累，就用天然溫泉與露天風呂替高知的一天收尾。",
+  detail: "高知市內的大型日歸溫泉設施。走完高知城、牧野植物園與竹林寺後，如果當天體力與時間都合適，可以在晚餐前後前往泡湯，讓連續幾天的步行與自駕稍微放鬆。\n館內除了天然溫泉露天風呂，也有高濃度人工炭酸泉、壺湯、寢湯與三溫暖等設施；另有需額外付費的岩盤浴。這一站完全不必勉強完成，如果當晚更想留在高知市區吃飯、散步，直接取消即可。",
+  highlights: [
+    "高知市內日歸溫泉",
+    "天然溫泉露天風呂",
+    "高濃度人工炭酸泉",
+    "三溫暖",
+    "可作為晚餐後的放鬆行程",
+    "當天疲累或時間不足可直接取消"
+  ],
+  note: "屬晚間彈性行程。營業時間、入浴費與岩盤浴方案出發前再次確認。",
+  map: "https://maps.app.goo.gl/iNtKg257S8rwzdJw5?g_st=ic",
+  tags: ["溫泉", "日歸溫泉", "放鬆", "晚間"],
+  status: "flex"
+}
     ]
   },
   {
@@ -499,7 +524,7 @@ status:"confirmed"
       title: "伊尾木洞",
       eyebrow: "蕨類溪谷",
       summary: "穿過低矮岩洞，走進被蕨類與溪流包圍的綠色谷地。",
-      detail: "伊尾木洞入口看似只是一道低矮岩穴，穿過之後卻會突然進入完全不同的濕潤世界。溪流、岩壁與大量蕨類植物形成近乎原始森林般的景觀。\n\n這次以輕鬆散步為主，不深入長距離健行。洞內與溪谷地面容易潮濕，十一月也可能有落葉覆蓋石面，行走時注意腳下。",
+      detail: "伊尾木洞入口看似只是一道低矮岩穴，穿過之後卻會突然進入完全不同的濕潤世界。溪流、岩壁與大量蕨類植物形成近乎原始森林般的景觀。\n這次以輕鬆散步為主，不深入長距離健行。洞內與溪谷地面容易潮濕，十一月也可能有落葉覆蓋石面，行走時注意腳下。",
       highlights: [
         "建議停留約 40–50 分鐘",
         "洞內與溪谷地面濕滑",
@@ -510,13 +535,12 @@ status:"confirmed"
       tags: ["自然", "溪谷", "蕨類", "攝影"],
       status: "confirmed"
     },
-
     {
       time: "10:45",
       title: "土居廓中・野良時計",
       eyebrow: "安藝武家町",
       summary: "走在土牆、武家屋敷與田園之間，尋找安藝城下町留下的時間。",
-      detail: "土居廓中保存了安藝城下武家町的道路格局與傳統住宅。白牆、土塀、瓦屋與安靜小路，比大型觀光老街更像仍有人生活其中的歷史街區。\n\n附近的野良時計建於明治時代，是安藝代表性的地方景觀之一。它位於私人住宅範圍，以外觀欣賞與拍照為主，不進入私人土地。",
+      detail: "土居廓中保存了安藝城下武家町的道路格局與傳統住宅。白牆、土塀、瓦屋與安靜小路，比大型觀光老街更像仍有人生活其中的歷史街區。\n附近的野良時計建於明治時代，是安藝代表性的地方景觀之一。它位於私人住宅範圍，以外觀欣賞與拍照為主，不進入私人土地。",
       nearby: [
         {
           name: "➀ 野良時計",
@@ -550,6 +574,23 @@ status:"confirmed"
       eyebrow: "地方午餐",
       summary: "在安藝稍作休息，吃過午餐後再沿國道 55 號前往室戶。",
       detail: "上午完成伊尾木洞與安藝舊街區後，在安藝市區安排午餐。店家目前先不寫死，之後依營業日、停車與想吃的料理再補入。\n\n午餐後便離開安藝，接下來的景色會逐漸從田園與小鎮轉為太平洋海岸。",
+      restaurants: [
+          {
+            name: "➀ Maeda-ya まえだ食堂",
+            map: "https://maps.app.goo.gl/vmNuxbL1mreVtuF29?g_st=ic",
+            note: "安藝在地排隊名店==。"
+          },
+          {
+            name: "➁ chez nous スープカレーの店 シェ・ヌー",
+            map: "https://maps.app.goo.gl/aQZr6HGZDHVDf7wr8?g_st=ic",
+            note: "離開安藝的一家咖喱"
+          },
+          {
+            name: "➂ Ichionto 海辺の料理店 一音灯",
+            map: "https://maps.app.goo.gl/Zi5gNTLQu11UsFij6?g_st=ic",
+            note: "海鮮、天婦羅蓋飯"
+          }
+        ],
       highlights: [
         "午餐預留約 1 小時",
         "餐廳之後再補",

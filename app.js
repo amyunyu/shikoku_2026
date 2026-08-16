@@ -16,8 +16,8 @@ const days = [
     place: "琴平",
     title: "從讚岐，走進秋天",
     lodging: "UDON na HOTEL 琴平",
-    lodgingMap: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
-    lodgingNote: "隔日早餐已包含",
+    lodgingMap: "https://maps.app.goo.gl/PHmXVKhk1QtiRbky5?g_st=ic",
+    lodgingNote: "Booking。隔日早餐已包含",
     stops: [
       {
         time: "12:20",
@@ -36,34 +36,34 @@ const days = [
         title: "UDON na HOTEL 琴平",
         eyebrow: "入住",
         summary: "Booking，含早餐",
-        map: "https://maps.app.goo.gl/XEdyhmtYpuHk5QWG7",
+        map: "https://maps.app.goo.gl/PHmXVKhk1QtiRbky5?g_st=ic",
         status: "confirmed"
       },
       {
         time: "15:30",
-        title: "金刀比羅宮表參道",
+        title: "新町商店街（歌舞伎新町）、表參道",
         eyebrow: "午後散步",
         nearby: [
           {
             name: "➀ 平岡精肉店",
-            note: "金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
-            map: "https://maps.app.goo.gl/hMiHsLodfqbWmugH8"
+            note: "2025百名店，(金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
+            map: "https://maps.app.goo.gl/LLLEddk6UcHYwxGQ8?g_st=ic"
           },
           {
             name: "➁ Kotohira Stationery Store 琴平文具店",
             note: "金毘羅街道上，獨家的香川縣紙膠帶。",
-            map: "https://maps.app.goo.gl/sFA9mAjk1uUc4PF26"
+            map: "https://maps.app.goo.gl/UqpwoNqC9dksDMgW9?g_st=ic"
           },
           {
             name: "➂ 旧金毘羅大芝居(金丸座)",
-            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。",
-            map: "https://maps.app.goo.gl/WrdpYbcGhcQYmzf59"
+            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。\n\n明天還可以去。",
+            map: "https://maps.app.goo.gl/BDGj3FvLf1gmqwP6A?g_st=ic"
           }
         ],
         summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
         detail: "表參道是琴平最適合用來展開旅程的地方。下午斜光會在石階、屋簷和老店招牌之間形成漂亮層次；依抵達時間決定走到大門或御本宮。",
         highlights: ["JR琴平駅可以拍照","表參道散步約 45–60 分鐘"],
-        map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
+        map: "https://maps.app.goo.gl/9oroq6LE3emokJ1ZA?g_st=ic",
         tags: ["逛街", "攝影"],
         status: "flex"
       },
@@ -74,12 +74,12 @@ const days = [
           {
             name: "➀ Musashi 手打うどん むさし",
             map: "https://maps.app.goo.gl/9fUeT7x5AmDs9t5d6",
-            note: "Tablog 百名店 2024"
+            note: "2024百名店"
           },
           {
-            name: "➁ Tanakaya 焼鳥・骨付鳥 田中屋",
-            map: "https://maps.app.goo.gl/powo67dESZgjhcLY8",
-            note: "香川代表性骨付鳥選項，不一定選這家"
+            name: "➁ Iwanoya セルフうどん いわのや",
+            map: "https://maps.app.goo.gl/Ca7A5piFs7WieaLV6?g_st=ic",
+            note: "烏龍麵，10:00-15:00"
           }
         ],
         summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
@@ -98,6 +98,7 @@ const days = [
     title: "白壁商街，秋光緩行",
     lodging: "PAYSAGE MORIGUCHI",
     lodgingMap: "https://maps.app.goo.gl/HggrojLCHYgYS3dB6",
+    lodgingNote: "Booking。隔日早餐已包含",
     stops: [
       {
   time: "08:00",
@@ -110,7 +111,6 @@ const days = [
     "建議穿著好走鞋",
     "退房前整理行李"
   ],
-  map: "https://maps.app.goo.gl/zo5SpDCFfZod2QgP7",
   tags: ["早餐", "準備"],
   status: "confirmed"
 },
@@ -146,7 +146,7 @@ const days = [
             map: "https://maps.app.goo.gl/WrdpYbcGhcQYmzf59"
           }
   ],
-  map: "https://maps.app.goo.gl/J4BbfVM9oZCV2jt88",
+  map: "https://maps.app.goo.gl/LFrDStCXj4DPwWgr8",
   tags: ["神社", "參拜", "攝影"],
   status: "confirmed"
       },
@@ -164,18 +164,18 @@ const days = [
   nearby: [
     {
       name: "➀ 道の駅 空の夢もみの木パーク",
-      note: "適合作為琴平往脇町方向的補給停留。",
-      map: "https://maps.app.goo.gl/ST7ezFZWen4H6N8d7"
+      note: "適合作為琴平往脇町方向的補給停留。有人孔蓋卡。\n\n小型在地農產＋まんのう特色商品，例如向日葵籽冰淇淋。\n\nひまわり牛肉うどん 向日葵牛肉烏龍麵。",
+      map: "https://maps.app.goo.gl/SrxaYX6Xcwn4dsLp6?g_st=ic"
     },
     {
       name: "➁ 道の駅 たからだの里さいた",
-      note: "可補給地方物產、飲料與簡單餐食。",
-      map: "https://maps.app.goo.gl/5m8TxkPnPRY89xJZ7"
+      note: "週一休館...規模比較大。主打財田當地的朝採蔬果、加工品、惣菜，而且現在還有麵包工房，官方說有40種以上現烤麵包。\n\n手作りアイスクリーム。三豐市觀光官方資料寫到，他們使用當地旬水果製作的冰淇淋，曾獲得四國地區道之駅冰淇淋選手權 Grand Prix。",
+      map: "https://maps.app.goo.gl/3CXZFvdYjhzfpxf98?g_st=ic"
     },
     {
       name: "➂ 吉野川サービスエリア（下り）",
-      note: "若選擇較快速移動，可作為途中停靠點。",
-      map: "https://maps.app.goo.gl/qRDrMrm4coGAM9oj7"
+      note: "好像沒什麼值得停留的，有超商、可以上廁所。",
+      map: "https://maps.app.goo.gl/PkEMKpdLuXSdVB359?g_st=ic"
     }
   ],
   tags: ["午餐", "移動", "道の駅"],
@@ -195,7 +195,7 @@ const days = [
     }
   ],
         highlights: ["商人町家與白壁街景", "下午三點後屋簷光影佳", "咖啡店與藍染店可視營業彈性停留"],
-        map: mapSearch("脇町うだつの町並み"),
+        map: "https://maps.app.goo.gl/1t7LbubPy6esDR9G8?g_st=ic",
         tags: ["老街", "建築", "攝影"],
         status: "confirmed"
       },
@@ -246,10 +246,10 @@ const days = [
         time: "08:30",
         title: "脇町出發・大步危方向",
         eyebrow: "山路移動",
-        summary: "從商家町離開，逐漸進入四國山地與吉野川峽谷。",
-        detail: "這一天是全程山區核心日。沿途不追求大量停點，將時間留給大步危、祖谷蔓橋和落合集落。",
+        summary: "在住宿用早餐後離開，逐漸進入四國山地與吉野川峽谷。",
+        detail: "這一天是全程山區核心日。\n從脇町到奧祖谷二重蔓橋山路約1h40m，路上好像沒有休息站喔",
         highlights: ["出發前加滿油並確認天氣", "山區留意會車與落葉", "傍晚前離開祖谷深處"],
-        map: "https://maps.app.goo.gl/MyQtCJWMRTMkGG4z5",
+        map: "https://maps.app.goo.gl/kRpRUisLBX8yiLbk9?g_st=ic",
         tags: ["山路", "移動"],
         status: "confirmed"
       },
@@ -263,7 +263,7 @@ nearby: [
           {
             name: "奥祖谷二重かずら橋入口（料金所）",
             note: "旁邊就可以停車。",
-            map: "https://maps.app.goo.gl/4JHooWBnd9oyYbVD6"
+            map: "https://maps.app.goo.gl/KCsV4UqqjgcDpNJe8"
           }
         ],        
 highlights: [
@@ -272,7 +272,7 @@ highlights: [
 "十一月底注意落葉與濕滑路面",
 "建議停留約45–60分鐘"
 ],
-map: "https://maps.app.goo.gl/maL2GnRqe9SApHwS7",
+map: "https://maps.app.goo.gl/KCsV4UqqjgcDpNJe8",
 tags:["秘境","山村","攝影"],
 status:"confirmed"
       },
@@ -302,7 +302,7 @@ status:"confirmed"
           {
             name: "➁ おのみ家（おのみや）",
             map: "https://maps.app.goo.gl/PmGhBWEzyEn45oPe9",
-            note: "定食，前往大步危途中"
+            note: "定食，前往大步危途中。這個看起來比較理想"
           },
           {
             name: "➂ Cafe & Jibie",

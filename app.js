@@ -1955,8 +1955,11 @@ const closeModalButton = document.querySelector("#close-modal");
 const modalDoneButton = document.querySelector("#modal-done");
 
 function mapLink(url, compact = false) {
+  if (!url) return "";
+
   const compactClass = compact ? " compact" : "";
   const text = compact ? "" : "地圖";
+
   return `<a class="map-link${compactClass}" href="${url}" target="_blank" rel="noreferrer" aria-label="在 Google 地圖開啟"><span aria-hidden="true">⌖</span>${text}</a>`;
 }
 
@@ -2027,7 +2030,15 @@ stop.eyebrow ? `${stop.time} · ${stop.eyebrow}` : stop.time;
   document.querySelector("#detail-title").textContent = stop.title;
   document.querySelector("#detail-text").textContent =
   stop.detail || stop.summary || "";
-  document.querySelector("#detail-map").href = stop.map;
+  const detailMap = document.querySelector("#detail-map");
+
+if (stop.map) {
+  detailMap.href = stop.map;
+  detailMap.hidden = false;
+} else {
+  detailMap.removeAttribute("href");
+  detailMap.hidden = true;
+}
   document.querySelector("#detail-tags").innerHTML =
   (stop.tags || []).map(tag => `<span>${tag}</span>`).join("");
   document.querySelector("#detail-highlights").innerHTML =
@@ -2054,7 +2065,9 @@ ${
       ? item.maps.map((url, index) =>
           `<a href="${url}" target="_blank">地圖連結 ${index + 1}</a>`
         ).join("　")
-      : `<a href="${item.map}" target="_blank">地圖連結</a>`
+      : item.map
+        ? `<a href="${item.map}" target="_blank">地圖連結</a>`
+        : ""
 }
     </article>
   `).join("");
@@ -2075,13 +2088,14 @@ if (stop.restaurants) {
       <p>${item.note || ""}</p>
 
       ${
-        item.maps
-          ? item.maps.map((url, index) =>
-              `<a href="${url}" target="_blank">地圖連結 ${index + 1}</a>`
-            ).join("　")
-          : `<a href="${item.map}" target="_blank">地圖連結</a>`
-      }
-
+  item.maps
+    ? item.maps.map((url, index) =>
+        `<a href="${url}" target="_blank">地圖連結 ${index + 1}</a>`
+      ).join("　")
+    : item.map
+      ? `<a href="${item.map}" target="_blank">地圖連結</a>`
+      : ""
+}
     </article>
   `).join("");
 } else {

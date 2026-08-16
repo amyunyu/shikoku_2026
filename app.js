@@ -435,7 +435,7 @@ status:"confirmed"
             note: "編號59的位置，土佐褐毛牛。"
           }
         ],
-        highlights: ["鰹魚料理是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],((
+        highlights: ["鰹魚料理是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],
         map: "https://maps.app.goo.gl/yRe3afMtZNktomaT9",
         tags: ["市場", "午餐", "散步"],
         status: "confirmed"
@@ -458,7 +458,7 @@ status:"confirmed"
         summary: "在五重塔、苔庭與古寺空間中收束下午。",
         detail: "竹林寺就在牧野植物園附近，適合合併安排。是否再前往五台山展望點，依當天時間和能見度決定。",
         highlights: ["四國八十八所第 31 番", "苔庭與五重塔值得慢看", "桂濱不列為必要行程"],
-        map: "https://maps.app.goo.gl/z8SLV4HkWyRu9jRp7?g_st=ic",=
+        map: "https://maps.app.goo.gl/z8SLV4HkWyRu9jRp7?g_st=ic",
         tags: ["寺院", "庭園"],
         status: "confirmed"
       },

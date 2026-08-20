@@ -525,6 +525,21 @@ status:"confirmed"
       eyebrow: "蕨類溪谷",
       summary: "穿過低矮岩洞，走進被蕨類與溪流包圍的綠色谷地。",
       detail: "伊尾木洞入口看似只是一道低矮岩穴，穿過之後卻會突然進入完全不同的濕潤世界。溪流、岩壁與大量蕨類植物形成近乎原始森林般的景觀。\n這次以輕鬆散步為主，不深入長距離健行。洞內與溪谷地面容易潮濕，十一月也可能有落葉覆蓋石面，行走時注意腳下。",
+      nearby: [
+        {
+          name: "➀ 駐車場",
+          map:
+           "https://maps.app.goo.gl/Hu71RbKEV7rLQRMW9?g_st=ic"
+        },
+        {
+          name: "➁ 安芸警察署 伊尾木駐在所",
+          map: "https://maps.app.goo.gl/UecDx38V4UpiDVrg9?g_st=ic"
+        },
+        {
+          name: "➂ 散步地圖",.
+          image: "assets/hirome-map.png"
+        }
+      ],
       highlights: [
         "建議停留約 40–50 分鐘",
         "洞內與溪谷地面濕滑",

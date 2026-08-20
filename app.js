@@ -536,7 +536,7 @@ status:"confirmed"
           map: "https://maps.app.goo.gl/UecDx38V4UpiDVrg9?g_st=ic"
         },
         {
-          name: "➂ 散步地圖",.
+          name: "➂ 散步地圖",
           image: "ioki_cave_route_map.png"
         }
       ],

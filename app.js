@@ -990,14 +990,18 @@ status:"confirmed"
       detail: "今晚入住ダイワロイネットホテル徳島駅前，11/21、11/22連住兩晚。\n\n因為今天從美波町出發後的動線更順，預計可以比原本稍早抵達德島。入住後不安排需要開車的正式景點，可以在德島站、新町川、商店街一帶慢慢走。",
       restaurants: [
         {
+          name: "➤ tabelog 德島車站",
+          map: "https://tabelog.com/tw/tokushima/A3601/A360101/R6692/rstLst/?SrtT=rt"
+        },
+        {
           name: "➀ 德島拉麵候選",
           map: mapSearch("徳島駅 徳島ラーメン"),
           note: "入住後可依距離、排隊與營業時間選擇。"
         },
         {
-          name: "➁ 德島居酒屋",
-          map: mapSearch("徳島駅 居酒屋"),
-          note: "可品嘗阿波尾雞、地酒等地方料理。"
+          name: "➁ TORIBON Tokushimahoncho-ten 鳥ぼん 徳島本町店",
+          map: "https://maps.app.goo.gl/E8bTRpJsEeMJNRFM9?g_st=ic",
+          note: "2025百名店，可品嘗阿波尾雞、地酒等地方料理。/n步行16分鐘。"
         }
       ],
       highlights: [

@@ -537,7 +537,7 @@ status:"confirmed"
         },
         {
           name: "➂ 散步地圖",
-          image: "ioki_cave_route_map.png"
+          image: "assets/ioki_cave_route_map.png"
         }
       ],
       highlights: [

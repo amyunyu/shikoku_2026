@@ -74,12 +74,16 @@ const days = [
           {
             name: "➀ Musashi 手打うどん むさし",
             map: "https://maps.app.goo.gl/9fUeT7x5AmDs9t5d6",
-            note: "2024百名店。"
+            note: "2024百名店，烏龍麵"
           },
           {
             name: "➁ Iwanoya セルフうどん いわのや",
             map: "https://maps.app.goo.gl/Ca7A5piFs7WieaLV6?g_st=ic",
-            note: "烏龍麵，10:00-15:00。"
+            note: "烏龍麵，10:00-15:00"
+          },
+          {
+            name: "➂ Tanakaya 焼鳥·骨付鳥 田中屋 参道口店",
+            map: "https://maps.app.goo.gl/d2WgoZNhGyXx55sx9"
           }
         ],
         summary: "入住後把車停好，晚餐前後再看一次安靜的參道燈影。",
@@ -101,7 +105,7 @@ const days = [
     lodgingNote: "Booking。隔日早餐已包含",
     stops: [
       {
-  time: "08:00",
+  time: "07:20",
   title: "琴平清晨・飯店早餐",
   eyebrow: "晨間",
   summary: "早餐後整理行李，準備完成金刀比羅宮完整參拜。",
@@ -115,7 +119,7 @@ const days = [
   status: "confirmed"
 },
       {
-  time: "09:00",
+  time: "08:20",
   title: "金刀比羅宮",
   eyebrow: "清晨登拜",
   summary: "從表參道開始，走過御本宮，再前往奧社，完成琴平最完整的參拜路線。",
@@ -189,9 +193,19 @@ const days = [
         detail: "吉野川沿岸的重要交通和商業據點，從脇城城下町發展而來，並因藍染產業的繁榮而累積財富。如今仍保存85棟江戶中期至昭和初期的傳統建造物，白壁町家與瓦頂うだつ交織成完整的歷史街景。\n漫步其中，可以看見商人町家的繁盛痕跡：兩側屋簷高低錯落，白漆喰牆面映著秋日斜陽，防火與象徵財力的「うだつ」成為這條街最鮮明的記憶。",
         nearby: [
     {
-    name: "脇町劇場 オデオン座",
+    name: "➀ 脇町劇場 オデオン座",
     note: "建於1934年的昭和初期劇場，外觀帶有西洋摩登風格，內部保留旋轉舞台與奈落等傳統劇場構造。曾經歷歌舞伎、浪曲、電影放映的繁盛年代，也因山田洋次電影《虹をつかむ男》而重新受到保存。如今修復後成為脇町老街中，連結昭和記憶與地方文化的重要場所。",
     map: "https://maps.app.goo.gl/xWsBRb42iNp7dLD87"
+    },
+          {
+    name: "➁ 吉田家住宅",
+    note: "昔日脇町大藍商的宅邸，保留主屋、藍藏與質藏等建築。\n門票510。",
+    map: "https://maps.app.goo.gl/cWySsJnRULTiPTraA"
+          },
+          {
+    name: "➂ 藍蔵 レストラン",
+    note: "紀念品店、咖啡店。",
+    map: "https://maps.app.goo.gl/TbKzzRZVJi3f9g5r8"
     }
   ],
         highlights: ["商人町家與白壁街景", "下午三點後屋簷光影佳", "咖啡店與藍染店可視營業彈性停留"],
@@ -209,22 +223,22 @@ const days = [
           {
             name: "➀ Punta",
             map: "https://maps.app.goo.gl/Gfc3h7GuRP2mW5pM8",
-            note: "義大利麵，住宿附近。"
+            note: "義大利麵，住宿附近，週一公休"
           },
           {
             name: "➁ 元 手打ちうどん元",
             map: "https://maps.app.goo.gl/WCbEd6tXihfdER2V6",
-            note: "烏龍麵，距離住宿走路15分鐘。"
+            note: "烏龍麵，距離住宿走路15分鐘"
           },
           {
             name: "➂ Maharaja Spice マハラジャスパイス",
             map: "https://maps.app.goo.gl/kJHPCtmJjFy9YqRd8",
-            note: "印度咖哩，要開車前往。"
+            note: "印度咖哩，要開車前往"
           },
           {
             name: "➃ 麺屋・國丸 脇町店",
             map: "https://maps.app.goo.gl/X3WLndDHTYAHNuBr6",
-            note: "拉麵，要開車前往。"
+            note: "拉麵，要開車前往"
           }
         ],
         highlights: ["古民家設計旅宿", "建議天黑前辦理入住", "晚餐選擇需再確認營業日"],
@@ -262,7 +276,12 @@ summary: "深入祖谷最深處，在原始山林中尋找兩座古老藤蔓橋�
 detail: "奧祖谷二重蔓橋位於祖谷山地深處，由男橋與女橋兩座藤蔓橋組成。相較於西祖谷的祖谷蔓橋，這裡位置更偏遠、人潮更少，也更能感受到四國山村與自然共存的氣息。",
 nearby: [
           {
-            name: "奥祖谷二重かずら橋入口（料金所）",
+    name: "➀ 劍山觀光登山纜車 剣山観光登山リフト・見ノ越駅",
+    note: "成人往返票價2300，紅葉好像是在10月份。",
+    map: "https://maps.app.goo.gl/aAqY76GVRtmUkuUv5"
+    },
+  {
+            name: "➁ 奥祖谷二重かずら橋入口（料金所）",
             note: "旁邊就可以停車。",
             map: "https://maps.app.goo.gl/KCsV4UqqjgcDpNJe8"
           }
@@ -311,7 +330,7 @@ status:"confirmed"
             note: "在道の駅 大歩危"
           }
         ],
-        highlights: ["門票每人550", "停留約 45–60 分鐘"],
+        highlights: ["門票每人550", "停留約1-1.5小時"],
         map: "https://maps.app.goo.gl/yX5eu6ZMHA4EN6yB6",
         tags: ["溪谷", "文化", "攝影"],
         status: "confirmed"
@@ -339,7 +358,7 @@ status:"confirmed"
         ],
         highlights: [
     "遊船約30分鐘",
-    "成人票價約1800日圓",
+    "成人票價約1500-1800日圓",
     "雨天或河川狀況依現場判斷"
   ],
   map: "https://maps.app.goo.gl/b4xZ9zRweS5w8xpi9",
@@ -349,12 +368,12 @@ status:"confirmed"
       {
         time: "17:00",
         title: "抵達 OMO7 高知。晚餐",
-        eyebrow: "住宿",
+        eyebrow: "住宿。晚餐",
         summary: "離開祖谷後直達高知，連住兩晚、不再搬行李。",
-        detail: "抵達後以入住與晚餐為主。高知連住兩晚能讓隔日城市文化行程更從容。",
+        detail: "抵達後以入住與晚餐為主。",
         restaurants: [
           {
-            name: "➀ Nikomichan にこみちゃん",
+            name: "➀ Nikomichan にこみちゃん ★★",
             map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
             note: "燉煮類燒烤刺身，走路4分鐘。"
           },
@@ -379,7 +398,7 @@ status:"confirmed"
             note: "2025百名店，居酒屋，走路14分鐘。饕客推薦蕎麥麵搭配炸雞。"
           }
         ],
-        highlights: ["住宿第一晚", "晚餐依抵達時間就近安排", "隔日不用整理行李"],
+        highlights: ["住宿第一晚"],
         map: mapSearch("OMO7 高知 by 星野集團"),
         tags: ["住宿", "晚餐"],
         status: "confirmed"
@@ -407,7 +426,7 @@ status:"confirmed"
         status: "confirmed"
       },
       {
-        time: "11:00",
+        time: "10:50",
         title: "帯屋町・弘人市場",
         eyebrow: "街區與午餐",
         summary: "沿商店街走到市場，用藁燒鰹魚和土佐小菜認識高知日常。",
@@ -433,6 +452,11 @@ status:"confirmed"
           {
             name: "➂ Petits Verres プティ・ヴェール",
             note: "編號59的位置，土佐褐毛牛。"
+          },
+          {
+            name: "★ 梅菲斯托費勒斯 メフィストフェレスル",
+            map: "https://maps.app.goo.gl/KVDGTqtv57Kzv6gx7",
+            note: "咖啡！蛋糕！"
           }
         ],
         highlights: ["鰹魚料理是首選", "市場採共享座位", "午餐後可補逛地方雜貨"],
@@ -441,7 +465,7 @@ status:"confirmed"
         status: "confirmed"
       },
       {
-        time: "14:00",
+        time: "13:30",
         title: "牧野植物園",
         eyebrow: "午後山林",
         summary: "在山坡庭園、溫室與建築之間散步，感受高知較安靜的一面。",
@@ -452,9 +476,9 @@ status:"confirmed"
         status: "flex"
       },
       {
-        time: "16:15",
+        time: "16:00",
         title: "竹林寺",
-        eyebrow: "五台山",
+        eyebrow: "紅葉名所",
         summary: "在五重塔、苔庭與古寺空間中收束下午。",
         detail: "竹林寺就在牧野植物園附近，適合合併安排。是否再前往五台山展望點，依當天時間和能見度決定。",
         highlights: ["四國八十八所第 31 番", "苔庭與五重塔值得慢看", "桂濱不列為必要行程"],

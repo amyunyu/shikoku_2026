@@ -40,33 +40,68 @@ const days = [
         status: "confirmed"
       },
       {
-        time: "15:30",
-        title: "新町商店街（歌舞伎新町）、表參道",
-        eyebrow: "午後散步",
-        nearby: [
-          {
-            name: "➀ 平岡精肉店",
-            note: "2025百名店，金毘羅街道上的老店，逛參道時可順路買來邊走邊吃。",
-            map: "https://maps.app.goo.gl/LLLEddk6UcHYwxGQ8?g_st=ic"
-          },
-          {
-            name: "➁ Kotohira Stationery Store 琴平文具店",
-            note: "金毘羅街道上，獨家的香川縣紙膠帶。",
-            map: "https://maps.app.goo.gl/UqpwoNqC9dksDMgW9?g_st=ic"
-          },
-          {
-            name: "➂ 旧金毘羅大芝居(金丸座)",
-            note: "金刀比羅表參道旁，建於1835年現存日本最古老的歌舞伎劇場，門票500。\n明天還可以去。",
-            map: "https://maps.app.goo.gl/BDGj3FvLf1gmqwP6A?g_st=ic"
-          }
-        ],
-        summary: "沿石階與木造店舖慢慢走，第一天不以攻頂為目標。",
-        detail: "表參道是琴平最適合用來展開旅程的地方。下午斜光會在石階、屋簷和老店招牌之間形成漂亮層次；依抵達時間決定走到大門或御本宮。",
-        highlights: ["JR琴平駅可以拍照","表參道散步約 45–60 分鐘"],
-        map: "https://maps.app.goo.gl/9oroq6LE3emokJ1ZA?g_st=ic",
-        tags: ["逛街", "攝影"],
-        status: "flex"
-      },
+  time: "15:30",
+  title: "琴平町・門前町散步",
+  eyebrow: "午後散步",
+  summary: "不急著登上金刀比羅宮，先從酒藏、老街、河岸與小店慢慢認識琴平町。",
+  detail: "第一天下午不以金刀比羅宮御本宮為目標，而是把時間留給琴平町本身。\n\n"
+    + "從參道入口附近的金陵の郷開始，看看昔日酒造空間與大楠，再沿著表參道下段、新町商店街慢慢散步。途中可以逛琴平文具店、吃點小食，接著往金倉川與鞘橋方向走，再繞到琴電琴平站與高燈籠一帶。\n\n"
+    + "如果天色、體力都還不錯，再走到JR琴平站看看；如果已經覺得滿足，就直接回飯店休息。今天不攻御本宮，把完整參拜留給明天早晨。",
+  nearby: [
+    {
+      name: "➀ 金陵の郷",
+      note: "位於金刀比羅宮表參道入口附近的酒造文化空間。可看白壁酒藏、酒造展示與大楠，也有地方酒與伴手禮。今天仍有開車，不以試飲為主。",
+      map: mapSearch("金陵の郷 琴平")
+    },
+    {
+      name: "➁ 平岡精肉店",
+      note: "金毘羅街道上的老店。看到有營業、想吃再買即可，不需要特別排隊趕行程。",
+      map: "https://maps.app.goo.gl/LLLEddk6UcHYwxGQ8?g_st=ic"
+    },
+    {
+      name: "➂ Kotohira Stationery Store 琴平文具店",
+      note: "金毘羅街道上的小型文具店，可留意香川與琴平限定紙膠帶、紙品。",
+      map: "https://maps.app.goo.gl/UqpwoNqC9dksDMgW9?g_st=ic"
+    },
+    {
+      name: "➃ 金刀比羅宮 新町鳥居",
+      note: "位於琴平町街區與門前町之間，很適合作為今天散步路線中的小節點。",
+      map: mapSearch("金刀比羅宮 新町鳥居")
+    },
+    {
+      name: "➄ 鞘橋",
+      note: "橫跨金倉川的傳統有蓋木橋。適合黃昏前順路看看河岸與琴平小鎮景色，不必停留太久。",
+      map: mapSearch("鞘橋 琴平")
+    },
+    {
+      name: "➅ 琴電琴平站・高燈籠",
+      note: "車站、鐵道、河岸與高燈籠集中在附近，可以感受琴平作為門前町與交通據點的日常風景。",
+      map: mapSearch("琴電琴平駅 高燈籠")
+    },
+    {
+      name: "➆ JR琴平駅",
+      note: "如果天色與體力還可以，再順路走到車站看看。建築外觀很有地方車站氣氛，時間不足直接略過。",
+      map: mapSearch("JR琴平駅")
+    },
+    {
+      name: "➇ 旧金毘羅大芝居（金丸座）",
+      note: "建於1835年的歷史劇場。今天原則上只視時間看外觀；若想入內仔細參觀，留到明天金刀比羅宮行程一起安排會更從容。",
+      map: "https://maps.app.goo.gl/BDGj3FvLf1gmqwP6A?g_st=ic"
+    }
+  ],
+  highlights: [
+    "建議散步約1.5～2小時",
+    "金陵の郷可優先安排在前段",
+    "以表參道下段、老街、小店與河岸為主",
+    "今天不以御本宮為目標",
+    "金丸座原則上只看外觀",
+    "約17:00～17:15開始往住宿方向返回",
+    "天色變暗或第一天較累，可隨時提前結束"
+  ],
+  map: mapSearch("琴平町 金刀比羅宮 表参道"),
+  tags: ["老街", "散步", "酒藏", "文具", "攝影"],
+  status: "flex"
+},
       {
         time: "晚餐",
         title: "琴平晚餐",
@@ -77,12 +112,7 @@ const days = [
             note: "2024百名店，烏龍麵"
           },
           {
-            name: "➁ Iwanoya セルフうどん いわのや",
-            map: "https://maps.app.goo.gl/Ca7A5piFs7WieaLV6?g_st=ic",
-            note: "烏龍麵，10:00-15:00"
-          },
-          {
-            name: "➂ Tanakaya 焼鳥·骨付鳥 田中屋 参道口店",
+            name: "➁ Tanakaya 焼鳥·骨付鳥 田中屋 参道口店",
             map: "https://maps.app.goo.gl/d2WgoZNhGyXx55sx9"
           }
         ],
@@ -167,17 +197,22 @@ const days = [
   ],
   nearby: [
     {
-      name: "➀ 道の駅 空の夢もみの木パーク",
+            name: "➀ Iwanoya セルフうどん いわのや",
+            map: "https://maps.app.goo.gl/Ca7A5piFs7WieaLV6?g_st=ic",
+            note: "烏龍麵，10:00-15:00"
+          },
+    {
+      name: "➁ 道の駅 空の夢もみの木パーク",
       note: "適合作為琴平往脇町方向的補給停留。有人孔蓋卡。\n小型在地農產＋まんのう特色商品，例如向日葵籽冰淇淋。\nひまわり牛肉うどん 向日葵牛肉烏龍麵。",
       map: "https://maps.app.goo.gl/SrxaYX6Xcwn4dsLp6?g_st=ic"
     },
     {
-      name: "➁ 道の駅 たからだの里さいた",
+      name: "➂ 道の駅 たからだの里さいた",
       note: "週一休館...規模比較大。主打財田當地的朝採蔬果、加工品、惣菜，而且現在還有麵包工房，官方說有40種以上現烤麵包。\n手作りアイスクリーム。三豐市觀光官方資料寫到，他們使用當地旬水果製作的冰淇淋，曾獲得四國地區道之駅冰淇淋選手權 Grand Prix。",
       map: "https://maps.app.goo.gl/3CXZFvdYjhzfpxf98?g_st=ic"
     },
     {
-      name: "➂ 吉野川サービスエリア（下り）",
+      name: "➃ 吉野川サービスエリア（下り）",
       note: "好像沒什麼值得停留的，有超商、可以上廁所。",
       map: "https://maps.app.goo.gl/PkEMKpdLuXSdVB359?g_st=ic"
     }

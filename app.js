@@ -502,18 +502,42 @@ status:"confirmed"
         status: "confirmed"
       },
       {
-        time: "晚上",
-        title: "OMO7 高知・第二晚",
-        eyebrow: "住宿",
-        summary: "回到同一間飯店休息，晚餐保留給土佐料理。",
-        detail: "連住第二晚。若中午已吃弘人市場，晚上可改選較安靜的土佐料理或飯店周邊餐廳。",
-        highlights: ["住宿第二晚", "不安排夜間長途駕駛", "整理隔日海岸線行程"],
-        map: mapSearch("OMO7 高知 by 星野集團"),
-        tags: ["住宿", "晚餐"],
-        status: "confirmed"
-      },
+  time: "晚上",
+  title: "高知市區晚餐",
+  eyebrow: "高知第二晚",
+  summary: "前一晚已在 OMO7 吃過高知料理 Buffet，今晚改到市區挑一間店，吃得更深入也更有街區感。",
+  detail: "如果想吃比較完整的地方料理，可優先考慮酒亭どんこ或かもん亭；如果白天走累了、不想跑太遠，就選離 OMO7 很近的にこみちゃん；如果想吃得輕鬆熱鬧一點，則可以去いまどき安兵衛吃餃子、拉麵與小菜。",
+  restaurants: [
+    {
+      name: "➀ 酒亭 どんこ ★★",
+      map: "https://maps.app.goo.gl/Hevt8jZRw1dPcy6y9",
+      note: "高知在地居酒屋。適合吃旬魚、清水鯖、煮物、炸物等地方料理；如果想把第二晚吃得最有『高知感』，這間是第一順位。"
+    },
+    {
+      name: "➁ かもん亭 ★★",
+      map: "https://maps.app.goo.gl/7sVzcT59tz6sdzjy6",
+      note: "較精緻、小而安靜的居酒屋，適合慢慢吃高知食材與地酒。若想把今晚當成比較正式的一餐，可以選這間。"
+    },
+    {
+      name: "➂ にこみちゃん",
+      map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
+      note: "離 OMO7 很近，主打燉煮、小料理與下酒菜。白天走累、不想再走太遠時最實用。"
+    },
+    {
+      name: "➃ いまどき安兵衛",
+      map: "https://maps.app.goo.gl/4fiRk6EWTE6RRsmD6",
+      note: "高知代表性的屋台餃子系。想吃得輕鬆熱鬧，或當第二攤都很適合；另有拉麵與小菜。"
+    }
+  ],
+  highlights: [
+    "前一晚已吃 OMO7 Buffet，今晚改吃單店"
+  ],
+  map: mapSearch("高知市 帯屋町"),
+  tags: ["晚餐", "居酒屋", "地方料理", "餃子"],
+  status: "flex"
+},
       {
-  time: "19:30",
+  time: "20:00",
   title: "土佐望月温泉 姫若子の湯",
   eyebrow: "日歸溫泉・晚間彈性",
   summary: "如果白天走得比較累，就用天然溫泉與露天風呂替高知的一天收尾。",

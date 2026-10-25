@@ -401,43 +401,23 @@ status:"confirmed"
         status: "confirmed"
 },
       {
-        time: "17:00",
-        title: "抵達 OMO7 高知。晚餐",
-        eyebrow: "住宿。晚餐",
-        summary: "離開祖谷後直達高知，連住兩晚、不再搬行李。",
-        detail: "抵達後以入住與晚餐為主。",
-        restaurants: [
-          {
-            name: "➀ Nikomichan にこみちゃん ★★",
-            map: "https://maps.app.goo.gl/e8MK53owo18UBKL5A",
-            note: "燉煮類燒烤刺身，走路4分鐘。"
-          },
-          {
-            name: "➁ Imadoki Yasubei いまどき安兵衛",
-            map: "https://maps.app.goo.gl/4fiRk6EWTE6RRsmD6",
-            note: "2024百名店，煎餃關東煮拉麵，走路14分鐘。"
-          },
-          {
-            name: "➂ Kamontei かもん亭",
-            map: "https://maps.app.goo.gl/7sVzcT59tz6sdzjy6",
-            note: "2025百名店，居酒屋，走路14分鐘。"
-          },
-          {
-            name: "➃ Cock Doll (コックドール)",
-            map: "https://maps.app.goo.gl/NmQ8HZuVoKVnwK6h6",
-            note: "2025百名店，蛋包飯漢堡排，走路18分鐘。"
-          },
-          {
-            name: "➄ Donko 酒亭どんこ",
-            map: "https://maps.app.goo.gl/Hevt8jZRw1dPcy6y9",
-            note: "2025百名店，居酒屋，走路14分鐘。饕客推薦蕎麥麵搭配炸雞。"
-          }
-        ],
-        highlights: ["住宿第一晚"],
-        map: mapSearch("OMO7 高知 by 星野集團"),
-        tags: ["住宿", "晚餐"],
-        status: "confirmed"
-      }
+  time: "17:00",
+  title: "OMO7 高知・OMO Dining 晚餐 Buffet",
+  eyebrow: "住宿・高知第一晚",
+  summary: "結束祖谷與大步危的山路日後，不再外出找餐廳，直接用一餐高知地方料理 Buffet 認識土佐味道。",
+  detail: "今天從脇町一路深入奧祖谷、祖谷蔓橋與大步危，再開往高知，是整趟旅程開車強度最高的日子之一。\n\n"
+    + "抵達 OMO7 高知後就不再安排外出晚餐。OMO Dining 晚餐 Buffet 以高知的皿鉢料理與『おきゃく』飲食文化為主軸，可一次吃到藁燒鰹魚、地方料理與甜點，作為進入高知的第一餐很合適。\n\n"
+    + "晚餐後若體力還可以，再依飯店當日時間參加よさこい相關館內活動；如果已經很累，就直接休息。",
+  highlights: [
+    "晚餐 Buffet 已預約18:30",
+    "成人目前約6,000円",
+    "主打藁燒鰹魚與高知地方料理"
+  ],
+  note: "實際晚餐時段、價格與預約方式出發前再次確認。",
+  map: mapSearch("OMO7 高知 by 星野リゾート"),
+  tags: ["住宿", "Buffet", "高知料理", "鰹魚"],
+  status: "confirmed"
+}
     ]
   },
   {

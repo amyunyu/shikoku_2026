@@ -1,4 +1,4 @@
-/*
+u(/*
  * 四國，秋日慢行｜GitHub Pages 版
  *
  * 所有行程內容都保存在下方的 days 陣列中，沒有壓縮或混淆。
@@ -590,7 +590,7 @@ status:"confirmed"
       detail: "伊尾木洞入口看似只是一道低矮岩穴，穿過之後卻會突然進入完全不同的濕潤世界。溪流、岩壁與大量蕨類植物形成近乎原始森林般的景觀。\n輕鬆散步。洞內與溪谷地面容易潮濕，十一月也可能有落葉覆蓋石面，行走時注意腳下。",
       nearby: [
         {
-          name: "➀ 駐車場",
+          name: "➀ 伊尾木洞第一駐車場",
           map:
            "https://maps.app.goo.gl/Hu71RbKEV7rLQRMW9?g_st=ic"
         },
@@ -604,6 +604,7 @@ status:"confirmed"
         }
       ],
       highlights: [
+        "導航設定「伊尾木洞第一駐車場」，不要直接導航伊尾木洞",
         "建議停留約 40–50 分鐘",
         "洞內與溪谷地面濕滑",
         "穿防滑、好走的鞋",
@@ -678,7 +679,7 @@ status:"confirmed"
       status: "flex"
     },
 {
-  time: "12:45",
+  time: "13:00",
   title: "安藝出發・沿國道55號往室戶",
   eyebrow: "走向太平洋岬角",
   summary: "吃完午餐後離開安藝，沿著土佐灣一路向東，把午後完整留給室戶岬。",
@@ -703,12 +704,12 @@ status:"confirmed"
     {
       name: "➀ 最御崎寺",
       note: "四國八十八箇所第24番札所。位於室戶岬高處，是室戶遍路文化的重要景點。",
-      map: "https://maps.app.goo.gl/v3DaqfkC4iGZHzpFA"
+      map: "https://maps.app.goo.gl/Y8XjSG5giycDXGe97?g_st=ic"
     },
     {
       name: "➁ 室戶岬燈塔",
       note: "位於室戶岬高處的白色燈塔，可眺望開闊的太平洋。",
-      map: "https://maps.app.goo.gl/zUsw24FEtaCs5W3V9"
+      map: "https://maps.app.goo.gl/pGqzmeC75ESz94Tv5?g_st=ic"
     }
   ],
   highlights: [
@@ -718,7 +719,7 @@ status:"confirmed"
     "建議停留約40～50分鐘",
     "海風強時注意保暖"
   ],
-  map: "https://maps.app.goo.gl/v3DaqfkC4iGZHzpFA",
+  map: "https://maps.app.goo.gl/mmxt6DhJaMyXdovbA?g_st=ic",
   tags: ["寺院", "遍路", "燈塔", "海景", "攝影"],
   status: "confirmed"
 },
@@ -750,7 +751,7 @@ status:"confirmed"
     {
       name: "室戶岬",
       note: "室戶岬最南端一帶，可沿遊步道視時間走到岬角附近，看太平洋與岩礁景色。",
-      map: "https://maps.app.goo.gl/Vu74NPf49bEChY1j7"
+      map: "https://maps.app.goo.gl/xtSLSaGH12CMzbHX8?g_st=ic"
     }
   ],
   highlights: [
@@ -761,12 +762,12 @@ status:"confirmed"
     "海風較強，準備保暖外套",
     "岩礁濕滑，不為拍照靠近浪區"
   ],
-  map: "https://maps.app.goo.gl/Vu74NPf49bEChY1j7",
+  map: "https://maps.app.goo.gl/xtSLSaGH12CMzbHX8?g_st=ic",
   tags: ["海岸", "地質", "攝影", "散步"],
   status: "confirmed"
 },
 {
-  time: "16:00",
+  time: "16:30",
   title: "入住 室戸岬の宿 うまめの木",
   eyebrow: "海邊小宿・一泊二食",
   summary: "在天黑前離開室戶岬，住進海邊小宿，用當地料理結束東海岸的一天。",
@@ -775,7 +776,6 @@ status:"confirmed"
     "2人・海側房",
     "一泊二食",
     "料理方案上限14,000円／人",
-    "已向旅宿告知預計16:00左右抵達",
     "現場僅收現金"
   ],
   note: " ",
@@ -830,7 +830,7 @@ status:"confirmed"
       title: "白濱海岸・道の駅 東洋町",
       eyebrow: "海岸午餐",
       summary: "回到太平洋岸，在白沙海灘旁休息，用地方海產與柑橘補充體力。",
-      detail: "白濱海岸就在東洋町海岸線上，適合作為今天的中段休息點。天氣好時到海邊看海、拍照，再到旁邊的道の駅東洋町吃午餐與補給。\n\n道の駅販售當地鮮魚、干物、農產品與東洋町特產。午餐以當天漁獲或簡單定食為主，也可以留意東洋町代表性的椪柑相關商品。",
+      detail: "白濱海岸就在東洋町海岸線上，適合作為今天的中段休息點。天氣好時到海邊看海、拍照，再到旁邊的道の駅東洋町吃午餐與補給。\n\n道の駅販售當地鮮魚、干物、農產品與東洋町特產。午餐以當天漁獲或簡單定食為主，也可以留意東洋町代表性的椪柑相關商品。\n\n11月中下旬正值海陽・宍喰一帶伊勢蝦季。若道の駅或沿途餐廳看到伊勢蝦料理、伊勢蝦味噌湯，可以優先考慮，不需要特地繞路找名店。",
       nearby: [
         {
           name: "➀ 白浜海水浴場",
@@ -899,7 +899,7 @@ status:"confirmed"
     },
     {
       time: "15:30",
-      title: "水床灣・宍喰海岸",
+      title: "水床灣・金ヶ崎展望",
       eyebrow: "午後彈性",
       summary: "如果時間與天候都合適，就在宍喰海岸短暫停下來看看海。",
       detail: "水床灣是宍喰代表性的海岸景觀，海灣中散布著大小島嶼與奇岩。\n如果城滿寺停留較久，或希望早一點抵達美波町，就直接略過；若天氣很好，則停留約20～30分鐘看海、拍照即可。",
@@ -934,7 +934,7 @@ status:"confirmed"
         },
         {
           name: "➂ Hiwasaya ひわさ屋",
-          map: "https://maps.app.goo.gl/ExXPCUziCvMPMA4EA",
+          map: "https://maps.app.goo.gl/vhoMn5x8fTT6eKQi9?g_st=ic",
           note: "以阿波尾雞、地魚料理與定食為主的地方餐廳"
         }
       ],
@@ -944,7 +944,7 @@ status:"confirmed"
         "隔天直接從日和佐開始",
         "晚餐依附近店家彈性安排"
       ],
-      map: "https://maps.app.goo.gl/7tU8PCHhbHS3CzvN8",
+      map: "https://maps.app.goo.gl/7vMpQouSvDuwizBN9?g_st=ic",
       tags: ["住宿", "美波町", "日和佐"],
       status: "confirmed"
     }

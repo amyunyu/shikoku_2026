@@ -1108,16 +1108,31 @@ status:"confirmed"
           name: "➤ tabelog 德島車站",
           map: "https://tabelog.com/tw/tokushima/A3601/A360101/R6692/rstLst/?SrtT=rt"
         },
-        {
-          name: "➀ 德島拉麵候選",
-          map: mapSearch("徳島駅 徳島ラーメン"),
-          note: "入住後可依距離、排隊與營業時間選擇"
-        },
-        {
-          name: "➁ TORIBON Tokushimahoncho-ten 鳥ぼん 徳島本町店",
+  {
+    name: "➀ 骨付き阿波尾鶏 一鴻 徳島駅前店 ★★",
+    map: "https://maps.app.goo.gl/TkaXsw9EiP2aiA5H9?g_st=ic",
+    note: "德島第一晚首選。招牌骨付き阿波尾鶏，可點ひな與おや各一份比較；另有德島地方料理與すだち飲品。德島站步行約2～3分鐘，可預約。"
+  },
+  {
+    name: "➁ 食堂はなたに ★★",
+    map: "https://maps.app.goo.gl/fNJtiZ52azJDpNJ37?g_st=ic",
+    note: "創作和食、海鮮與居酒屋料理。比起一次蒐集名物，更適合想坐下來好好吃一頓的晚上。"
+  },
+  {
+    name: "➂ 阿波ダイニング天",
+    map: "https://maps.app.goo.gl/HrAV9iEtPiGPSBkU8?g_st=ic",
+    note: "想一次嘗試多種德島食材可選。阿波尾鶏、阿波牛、鳴門鯛、鳴門わかめ、半田そうめん等地方食材都有機會吃到。"
+  },
+  {
+          name: "➃ TORIBON Tokushimahoncho-ten 鳥ぼん 徳島本町店",
           map: "https://maps.app.goo.gl/E8bTRpJsEeMJNRFM9?g_st=ic",
           note: "2025百名店，可品嘗阿波尾雞、地酒等地方料理。步行16分鐘"
-        }
+        },
+  {
+    name: "⑤ 堂の浦 駅前店",
+    map: mapSearch("堂の浦 駅前店"),
+    note: "鯛魚拉麵候選。適合今晚想簡單吃，或正式晚餐後散步時又餓了再考慮；不需要為了德島拉麵特地繞遠。"
+  }
       ],
       highlights: [
         "11/21、11/22連住兩晚",

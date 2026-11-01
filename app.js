@@ -1840,7 +1840,7 @@ title: "GRAND CHARIOT Check-in",
       title: "淡路島・午餐",
       eyebrow: "離島前最後一餐",
       summary: "簡單吃一頓淡路島料理。",
-      detail: "可以在伊弉諾神宮周邊簡單吃淡路牛、海鮮、洋蔥料理，也可以改成途中休息站解決。\n\n今天午餐的重點是順路、快速、停車方便。目標約11:50左右重新上路。",
+      detail: "可以在伊弉諾神宮周邊簡單吃淡路牛、海鮮、洋蔥料理，也可以改成途中休息站解決。\n\n今天午餐的重點是順路、快速、停車方便。",
       highlights: [
         "用餐約30分鐘",
         "淡路牛／海鮮／洋蔥料理皆可"
@@ -1890,7 +1890,7 @@ title: "GRAND CHARIOT Check-in",
       status: "flex"
     },
     {
-      time: "14:00",
+      time: "14:00-14:30",
       title: "丸龜城",
       eyebrow: "今日主景",
       summary: "從高石垣一路登上現存天守，把午後完整留給讚岐城郭。",
@@ -1923,7 +1923,7 @@ title: "GRAND CHARIOT Check-in",
       status: "flex"
     },
     {
-      time: "16:15",
+      time: "16:30",
       title: "丸龜出發・往高松",
       eyebrow: "最後一段自駕",
       summary: "離開丸龜城後往高松市區，準備加油與還車。",
@@ -1995,7 +1995,6 @@ title: "GRAND CHARIOT Check-in",
         ],
       highlights: [
         "步行活動",
-        "丸龜町・瓦町一帶",
         "骨付鳥可列晚餐首選",
         "不安排正式景點",
         "留體力給11/26完整高松日"

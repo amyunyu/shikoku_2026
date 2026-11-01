@@ -1587,13 +1587,10 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
         }
       ],
       highlights: [
-        "住宿目前暫定",
-        "地址：3 Chome-3-9 Yamate, Sumoto, Hyogo",
         "抵達後不再長途駕駛",
         "晚上可在洲本市區用餐",
         "隔日11/24前往DQ Island"
       ],
-      note: "MAGATAMA.INN 尚未標記為正式確認，訂房完成後可把住宿狀態更新為已預訂。",
       map: "https://maps.app.goo.gl/rCEhLTdrxnFvVVcT8?g_st=ic",
       tags: ["住宿", "洲本", "淡路島"],
       status: "flex"
@@ -1633,7 +1630,7 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
       detail: "GRAND CHARIOT 位於一般車輛無法直接開到門口的位置，因此抵達二次元之森停車場後，依官方 FAQ 指示，先打電話聯絡飯店。\n\n電話：0799-64-7090\n\n告知今天有住宿預約、已抵達停車場，並希望在正式 Check-in 前先寄放行李及領取住宿特典票券。飯店會安排專用車接送。\n\n住宿方案每位住宿者附 DQ Island Light Ticket。今天預計在正式入住前先使用，因此領票時也一併詢問 Premium 升級方式。",
       highlights: [
         "抵達停車場後先聯絡 GRAND CHARIOT",
-        "電話：0799-64-7090",
+        "電話：+81-799-64-7090",
         "由飯店專用車接送",
         "Check-in 前可先寄放行李",
         "Check-in 前可先領住宿附 DQ Light Ticket"
@@ -1641,8 +1638,27 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
       nearby: [
         {
           name: "電話日文",
-          note: "こんにちは。本日宿泊予定のワン ユンユーです。今、ニジゲンノモリの駐車場に着きました。チェックイン前に宿泊特典のチケットを受け取りたいです。荷物も預けたいです。お迎えをお願いできますか。"
-        },
+    note:
+      "こんにちは。\n"
+      + "Konnichiwa.\n\n"
+      + "ほんじつ しゅくはく よていの ワンです。\n"
+      + "Honjitsu shukuhaku yotei no Wan desu.\n\n"
+      + "いま、にじげんのもりの ちゅうしゃじょうに つきました。\n"
+      + "Ima, Nijigen no Mori no chūshajō ni tsukimashita.\n\n"
+      + "チェックインまえに にもつを あずけて、\n"
+      + "Chekku-in mae ni nimotsu o azukete,\n\n"
+      + "しゅくはく とくてんの ドラゴンクエスト アイランドの チケットを うけとりたいです。\n"
+      + "Shukuhaku tokuten no Doragon Kuesuto Airando no chiketto o uketoritai desu.\n\n"
+      + "おむかえを おねがいできますか？\n"
+      + "Omukae o onegai dekimasu ka?"
+  },
+  {
+    name: "如果對方問目前在哪個停車場",
+    note:
+      "エフ ちゅうしゃじょうです。\n"
+      + "Efu chūshajō desu.\n"
+      + "＝ F停車場。"
+  },
         {
           name: "電話英文",
           note: "Hello, this is Wang Yun-Yu. I have a reservation for today. We have just arrived at the Nijigen no Mori parking lot. We would like to get our accommodation tickets before check-in and leave our luggage. Could you please pick us up?"
@@ -1691,10 +1707,10 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
       status: "confirmed"
     },
     {
-      time: "15:30",
-      title: "GRAND CHARIOT Check-in",
+      time: "DQ結束後",
+title: "GRAND CHARIOT Check-in",
       eyebrow: "入住主題旅宿",
-      summary: "結束白天冒險後，由二次元之森進入今晚真正的主角——GRAND CHARIOT 北斗七星135°。",
+      summary: "DQ Island 玩到完整告一段落後，再正式入住今晚的スライムのコクーン〈和〉。",
       detail: "下午結束 DQ Island 後正式辦理 GRAND CHARIOT Check-in。\n\n今晚住宿的是 Dragon Quest 聯名房型「スライムのコクーン〈和〉」。房型約60㎡，以日式現代空間結合 Dragon Quest 元素，並設有私人露台與檜木風呂。\n\n正式入住後不再安排開車外出，接下來的時間全部留給房間、晚餐與住宿本身。",
       highlights: [
         "入住：GRAND CHARIOT 北斗七星135°",

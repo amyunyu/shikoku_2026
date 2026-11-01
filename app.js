@@ -1569,7 +1569,7 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
       status: "flex"
     },
     {
-      time: "17:30",
+      time: "傍晚",
       title: "入住 MAGATAMA.INN・洲本",
       eyebrow: "淡路島第一晚",
       summary: "抵達洲本城下町，結束從德島跨越鳴門海峽進入淡路島的一天。",
@@ -1686,7 +1686,7 @@ note: "2026/10/17～11/23期間，眉山纜車實施《鬼滅之刃》角色語�
       note: "Premium 升級方式、差額與不同票種搭配目前保留現場／事前確認，不先標記為完全確定。",
       map: mapSearch("ドラゴンクエスト アイランド"),
       tags: ["DQ", "Premium", "票券", "住宿特典"],
-      status: "flex"
+      status: "confirmed"
     },
     {
       time: "11:00",
@@ -1795,9 +1795,8 @@ title: "GRAND CHARIOT Check-in",
       title: "GRAND CHARIOT・早餐",
       eyebrow: "史萊姆之晨",
       summary: "慢慢吃早餐，把史萊姆房最後的清晨留給自己。",
-      detail: "今天雖然要離開淡路島，但不需要一早匆忙退房。先在 GRAND CHARIOT 吃早餐，再回房整理行李、補拍スライムのコクーン〈和〉細節。\n\n今天下午要把丸龜城當成主景，因此早上會比原本稍微提早離開 GRAND CHARIOT，讓午後行程更從容。",
+      detail: "先在 GRAND CHARIOT 吃早餐，再回房整理行李、補拍スライムのコクーン〈和〉細節。\n\n今天下午要把丸龜城當成主景，稍早離開 GRAND CHARIOT，讓午後行程更從容。",
       highlights: [
-        "做個抉擇，丸龜城還去不去，不去的話整體行程可以悠哉一點",
         "住宿包含早餐",
         "早餐後回房整理行李"
       ],
@@ -1806,13 +1805,13 @@ title: "GRAND CHARIOT Check-in",
       status: "confirmed"
     },
     {
-      time: "09:45",
+      time: "09:30",
       title: "GRAND CHARIOT Check-out",
       eyebrow: "離開勇者之島",
       summary: "結束 Dragon Quest 主題住宿，取車後往淡路島中部前進。",
-      detail: "今天不住到退房最後一刻，目標約09:45～10:00完成退房並返回停車區取車。",
+      detail: "今天不住到退房最後一刻，目標約09:45完成退房並返回停車區取車。",
       highlights: [
-        "目標約09:45～10:00離開",
+        "目標約09:45離開",
         "返回停車區取車"
       ],
       map: mapSearch("ニジゲンノモリ F駐車場"),
@@ -1820,7 +1819,7 @@ title: "GRAND CHARIOT Check-in",
       status: "confirmed"
     },
     {
-      time: "10:35",
+      time: "10:30",
       title: "伊弉諾神宮",
       eyebrow: "國生神話與夫婦之神",
       summary: "在離開淡路島以前，走完這趟旅行的國生神話線。",
@@ -1937,23 +1936,20 @@ title: "GRAND CHARIOT Check-in",
       ],
       map: mapSearch("丸亀城 高松"),
       tags: ["移動", "高松", "自駕"],
-      status: "flex"
+      status: "confirmed"
     },
     {
       time: "17:30",
       title: "高松市區・加油與還車",
       eyebrow: "自駕終點",
       summary: "把油加滿、確認車內物品，正式結束這趟四國自駕。",
-      detail: "進入高松後先依租車規定加滿油，再前往最終確認的 TOYOTA Rent a Car 市區門市還車。\n\n目前高松店是很適合的候選，位置在JR高松站南側約2分鐘，官方目前營業時間為08:00～20:00，並接受異地還車。實際仍以你的租車預約修改結果為準。\n\n還車後，11/25晚上、11/26全天與11/27前往機場都不再開車。",
+      detail: "進入高松後先依租車規定加滿油，再前往門市還車。\n\n還車後，11/25晚上、11/26全天與11/27前往機場都不再開車。",
       highlights: [
         "先加滿油再還車",
         "檢查 ETC、車內與後車廂",
-        "高松店目前營業至20:00",
-        "可接受異地還車",
-        "最終門市待預約修改後確認"
+        "預約18:30還車"
       ],
-      note: "待補：TOYOTA Rent a Car 最終還車門市、預約編號與實際還車時間。",
-      map: mapSearch("トヨタレンタカー 高松店"),
+      map: "https://maps.app.goo.gl/nuyBjDVxuaaQrPjM8?g_st=ic",
       tags: ["加油", "還車", "租車", "高松"],
       status: "flex"
     },

@@ -1726,7 +1726,7 @@ title: "GRAND CHARIOT Check-in",
       status: "confirmed"
     },
     {
-      time: "16:00",
+      time: "入住後",
       title: "スライムのコクーン〈和〉",
       eyebrow: "房間也是冒險",
       summary: "把下午留在史萊姆房裡，尋找小小勳章、看限定備品，慢慢享受這晚真正的住宿體驗。",

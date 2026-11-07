@@ -518,15 +518,17 @@ main {
 }
 
 .info-grid article {
-  min-height: 180px;
+  min-height: 160px;
   padding: 20px;
   color: #f5eedc;
   background: var(--forest);
 }
 
-.info-grid article:nth-child(2),
-.info-grid article:nth-child(3) {
+.info-grid article:nth-child(even) {
   background: var(--forest-light);
+}
+.info-grid article:nth-child(odd) {
+  background: var(--forest);
 }
 
 .info-grid span {
